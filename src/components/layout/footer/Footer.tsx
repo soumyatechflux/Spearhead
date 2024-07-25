@@ -15,7 +15,7 @@ const Footer = () => {
           <div className="col-12 col-lg-5 col-xl-6">
             <div className="footer__single">
               <Link href="/" className="logo">
-                <Image src={logo} alt="Image" />
+                <Image style={{height:"60px", width:"120px"}} src={logo} alt="Image" />
               </Link>
               <div className="footer__single-meta">
                 <Link
@@ -102,13 +102,13 @@ const Footer = () => {
                   <div className="footer__copyright-text text-center text-lg-start">
                     <p>
                       Copyright &copy;
-                      <span id="copyYear">{currentYear}</span> Spearhead by{" "}
+                      <span id="copyYear">{currentYear}</span> Spearhead Creativity by{" "}
                       <Link
                         
                         href="https://themeforest.net/user/UltraDevs"
                         target="_blank"
                       >
-                        UltraDevs{" "}
+                        Paul Williams{" "}
                       </Link>
                       . All Rights Reserved
                     </p>

@@ -100,11 +100,11 @@ const HomeOneBanner = () => {
           </Link>
         </div>
         <button
-          className="video-frame video-btn"
-          onClick={() => setVideoActive(true)}
+          // className="video-frame video-btn"
+          // onClick={() => setVideoActive(true)}
         >
-          <Image src={videoframe} alt="Image" priority />
-          <i className="fa-sharp fa-solid fa-play"></i>
+          {/* <Image src={videoframe} alt="Image" priority /> */}
+          {/* <i className="fa-sharp fa-solid fa-play"></i> */}
         </button>
         <div className="lines d-none d-lg-flex">
           <div className="line"></div>
@@ -120,14 +120,14 @@ const HomeOneBanner = () => {
       >
         <div className="video-inner">
           <div
-            className="video-container"
-            onClick={(e: any) => e.stopPropagation()}
+            // className="video-container"
+            // onClick={(e: any) => e.stopPropagation()}
           >
             {videoActive && <YoutubeEmbed embedId="fSv6UgCkuTU" />}
             <button
-              aria-label="close video popup"
-              className="close-video-popup"
-              onClick={() => setVideoActive(false)}
+              // aria-label="close video popup"
+              // className="close-video-popup"
+              // onClick={() => setVideoActive(false)}
             >
               <i className="fa-solid fa-xmark"></i>
             </button>

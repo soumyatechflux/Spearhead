@@ -54,7 +54,7 @@ const HomeTwoBanner = () => {
                 </div>
                 <div className="cta section__content-cta m-0">
                   <div className="single">
-                    <h5 className="fw-7">12+</h5>
+                    <h5 className="fw-7">18+</h5>
                     <p className="fw-5">years of experience</p>
                   </div>
                   <div className="single">

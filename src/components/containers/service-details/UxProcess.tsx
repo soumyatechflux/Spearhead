@@ -10,10 +10,10 @@ const UxProcess = () => {
           <div className="col-12 col-lg-8">
             <div className="section__header text-center">
               <span className="sub-title">
-              Innovation Roadmapping
+              UX PROCESS
                 <i className="fa-solid fa-arrow-right"></i>
               </span>
-              <h2 className="title title-anim">working Innovation Roadmapping Process</h2>
+              <h2 className="title title-anim">working Ux Process</h2>
             </div>
           </div>
         </div>

@@ -18,7 +18,11 @@ const HomeTwoOfferLight = () => {
           const dx = event.clientX - contentBox.x;
           const dy = event.clientY - contentBox.y;
           const thirdChild = item.children[2] as HTMLElement;
-          thirdChild.style.transform = `translate(${dx}px, ${dy}px) rotate(10deg)`;
+          if (thirdChild) {
+            thirdChild.style.transform = `translate(${dx}px, ${dy}px) rotate(10deg)`;
+          } else {
+            console.error("thirdChild is undefined");
+          }
         });
       }
     };

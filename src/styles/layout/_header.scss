@@ -3,6 +3,17 @@
  ==== */
 
 //  header
+.ADS {
+  color: black;
+  font-weight: bold;
+  padding-right: 10px;
+}
+
+.ADS:hover {
+  color: #ff7425;
+
+}
+
 .primary-navbar {
   position: fixed;
   top: 0px;
@@ -18,14 +29,17 @@
     flex-wrap: wrap;
     background-color: #fff;
     border-radius:  46px;
+    height: 100px;
   }
 
   .navbar__menu {
     flex-grow: 1;
-    & > ul {
+    & > ul{
       display: flex;
       align-items: center;
       justify-content: flex-end;
+      margin-bottom: -8px;
+      margin-top: -14px;
     }
   }
 

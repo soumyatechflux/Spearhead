@@ -72,7 +72,7 @@ const Offcanvas = ({ openNav, setOpenNav }: HeaderProps) => {
           <div className="offcanvas-menu__header nav-fade">
             <div className="logo">
               <Link href="/">
-                <Image src={logo} alt="Image" title="Image" priority />
+                <Image style={{height:"60px", width:"120px"}} src={logo} alt="Image" title="Image" priority />
               </Link>
             </div>
             <button
@@ -88,19 +88,19 @@ const Offcanvas = ({ openNav, setOpenNav }: HeaderProps) => {
               <ul>
                 <li className="navbar__item navbar__item--has-children nav-fade">
                   <button
-                    aria-label="dropdown menu"
-                    className={`navbar__dropdown-label ${isSubMenuButton(
-                      "home"
-                    )}`}
-                    onClick={() => handleSubmenu("home")}
+                    //  aria-label="dropdown menu"
+                    // className={`navbar__dropdown-label ${isSubMenuButton(
+                    //   "home"
+                    // )}`}
+                    // onClick={() => handleSubmenu("home")}
                   >
-                    Home
+                  
                   </button>
-                  <ul className={`navbar__sub-menu ${isSubMenuOpen("home")}`}>
-                    <li>
+                  {/* <ul className={`navbar__sub-menu ${isSubMenuOpen("home")}`}> */}
+                    {/* <li>
                       <Link href="/">Creative Agency</Link>
-                    </li>
-                    <li>
+                    </li> */}
+                    {/* <li>
                       <Link href="index-light">Creative Agency Light</Link>
                     </li>
                     <li>
@@ -130,11 +130,11 @@ const Offcanvas = ({ openNav, setOpenNav }: HeaderProps) => {
                       <Link href="index-five-light">
                         Interactive Portfolio Light
                       </Link>
-                    </li>
-                  </ul>
+                    </li> */}
+                  {/* </ul> */}
                 </li>
                 <li className="navbar__item nav-fade">
-                  <Link href="about-us" style={{color : "black", fontWeight :"bold"}}>About Us</Link>
+                  <Link href="about-us">About Us</Link>
                 </li>
                 <li className="navbar__item navbar__item--has-children nav-fade">
                   <button

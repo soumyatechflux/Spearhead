@@ -88,11 +88,12 @@ const Agency = () => {
               <Image
                 src={thumbtwo}
                 alt="Image"
-                className="thumb-two fade-right"
+                className="thumb-two "
                 priority
               />
             </div>
           </div>
+        
           <div className="col-12 col-lg-6">
             <div className="agency__content section__content">
               <span className="sub-title">
@@ -100,19 +101,19 @@ const Agency = () => {
                 <i className="fa-solid fa-arrow-right"></i>
               </span>
               <h2 className="title title-anim">
-              Spearhead Creativity Advisory Service!
+              Spearhead Creativity 
               </h2>
               <div className="paragraph">
                 <p>
-                We specialize in providing top-notch advisory services to help businesses unlock their full creative potential. Our team of experts is dedicated to guiding you on a journey towards innovative thinking, strategic planning, and effective execution.
+                For over 20 years, Paul Williams has been working with some of the world’s most prestigious brands, helping them achieve commercial success through strategy-driven creativity. This includes implementing household names such as Arabian Business (Arabic and English) and acting as a catalyst for change for the likes of Dubai Tourism, Marriott International, Accor, ADCB, Cartier, Expo2020, Government entities, and Family-run offices.
 
                 </p>
               </div>
               <div className="skill-wrap">
                 <div className="skill-bar-single d-none">
-                  {/* <div className="skill-bar-title">
+                  <div className="skill-bar-title">
                     <p className="primary-text">Website design</p>
-                  </div> */}
+                  </div>
                   <div className="skill-bar-wrapper" data-percent="75%">
                     <div className="skill-bar">
                       <div className="skill-bar-percent">
@@ -125,15 +126,15 @@ const Agency = () => {
                   {/* <div className="skill-bar-title">
                     <p className="primary-text">Website design</p>
                   </div> */}
-                  <div className="skill-bar-wrapper" data-percent="75%">
+                  {/* <div className="skill-bar-wrapper" data-percent="75%">
                     <div className="skill-bar">
                       <div className="skill-bar-percent">
                         <span className="percent-value"></span>
                       </div>
                     </div>
-                  </div>
+                  </div> */}
                 </div>
-                <div className="skill-bar-single">
+                {/* <div className="skill-bar-single">
                   <div className="skill-bar-title">
                     <p className="primary-text">Digital Marketing</p>
                   </div>
@@ -144,7 +145,7 @@ const Agency = () => {
                       </div>
                     </div>
                   </div>
-                </div>
+                </div> */}
               </div>
               <div className="section__content-cta">
                 <Link href="about-us" className="btn btn--primary">

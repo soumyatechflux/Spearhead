@@ -167,8 +167,8 @@ const HomeTestimonialThree = () => {
                             </h4>
                           </div>
                           <div className="content-cta">
-                            <h5>Paul Williams</h5>
-                            <p>Chief Marketing Officer (CMO)</p>
+                            <h5>Daniel Smith</h5>
+                            <p>Senior engineer</p>
                           </div>
                         </div>
                       </div>
@@ -211,8 +211,8 @@ const HomeTestimonialThree = () => {
                             </h4>
                           </div>
                           <div className="content-cta">
-                            <h5>Paul Williams</h5>
-                            <p>Chief Marketing Officer (CMO)</p>
+                            <h5>Daniel Smith</h5>
+                            <p>Senior engineer</p>
                           </div>
                         </div>
                       </div>
@@ -255,8 +255,8 @@ const HomeTestimonialThree = () => {
                             </h4>
                           </div>
                           <div className="content-cta">
-                            <h5>Paul Williams</h5>
-                            <p>Chief Marketing Officer (CMO)</p>
+                            <h5>Daniel Smith</h5>
+                            <p>Senior engineer</p>
                           </div>
                         </div>
                       </div>

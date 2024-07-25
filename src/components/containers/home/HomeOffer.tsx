@@ -41,11 +41,11 @@ const HomeOffer = () => {
                 <i className="fa-solid fa-arrow-right"></i>
               </span>
               <h2 className="title title-anim">
-              Spearhead
+              Spearhead Creativity
               </h2>
               <div className="paragraph">
                 <p>
-                 Spearhead Creativity has built a solid reputation for exceeding client expectations. We've collaborated with top clients across diverse sectors, from technology to healthcare, delivering standout campaigns.
+                We're a dynamic Branding, Marketing, Communications, PR, and Advisory Service Company based in Dubai, UAE. With over 18 years of industry expertise, we're your go-to partners for exceptional results.
 
                 </p>
               </div>
@@ -65,7 +65,7 @@ const HomeOffer = () => {
                 </span>
                 <h2>
                   <Link href="service-single">
-                    uI / uX experience
+                  Innovation Roadmapping (UX DESIGN)
                     <i className="fa-sharp fa-solid fa-arrow-up-right"></i>
                   </Link>
                 </h2>
@@ -79,10 +79,10 @@ const HomeOffer = () => {
                   <i className="fa-solid fa-arrow-right"></i>
                 </span>
                 <h2>
-                  {/* <Link href="service-single">
-                    web development
+                  <Link href="service-single">
+                  Creative Strategy Development
                     <i className="fa-sharp fa-solid fa-arrow-up-right"></i>
-                  </Link> */}
+                  </Link>
                 </h2>
                 <div className="offer-thumb-hover d-none d-md-block">
                   <Image src={two} alt="Image" />
@@ -95,7 +95,7 @@ const HomeOffer = () => {
                 </span>
                 <h2>
                   <Link href="service-single">
-                    digital marketing
+                  Ideation Workshops
                     <i className="fa-sharp fa-solid fa-arrow-up-right"></i>
                   </Link>
                 </h2>
@@ -110,7 +110,7 @@ const HomeOffer = () => {
                 </span>
                 <h2>
                   <Link href="service-single">
-                    product design
+                  Trend Analysis and Market Research
                     <i className="fa-sharp fa-solid fa-arrow-up-right"></i>
                   </Link>
                 </h2>

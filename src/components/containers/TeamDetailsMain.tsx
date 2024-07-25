@@ -107,7 +107,7 @@ const TeamDetailsMain = () => {
               <div className="intro">
                 <div className="intro-left">
                   <h4>Sana p. Lesh</h4>
-                  <p>Chief Marketing Officer (CMO)</p>
+                  <p>Senior engineer</p>
                 </div>
                 <div className="intro-right">
                   <Link href="contact-us" className="btn btn--primary">

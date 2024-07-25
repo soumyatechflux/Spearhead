@@ -69,16 +69,21 @@ const HeaderFive = ({ openNav, handleNav, setOpenNav }: HeaderProps) => {
                     <ul>
                       <li className="navbar__item navbar__item--has-children nav-fade">
                         <button
-                          aria-label="dropdown menu"
-                          className="navbar__dropdown-label"
+                          // aria-label="dropdown menu"
+                          // className="navbar__dropdown-label"
                         >
-                          Home
+                          <li>
+                          <Link href="#">Home</Link>
+                        </li>
+                      
+                          
                         </button>
-                        <ul className="navbar__sub-menu navbar__sub-menu--lg">
+                        <ul >
+                          {/* className="navbar__sub-menu navbar__sub-menu--lg" * drop down menu in upper ul/}
                           <li>
-                            <Link href="/">Creative Agency</Link>
+                            <Link href="/" >Creative Agency</Link>
                           </li>
-                          <li>
+                          {/* <li>
                             <Link href="index-light">
                               Creative Agency Light
                             </Link>
@@ -114,11 +119,11 @@ const HeaderFive = ({ openNav, handleNav, setOpenNav }: HeaderProps) => {
                             <Link href="index-five-light">
                               Interactive Portfolio Light
                             </Link>
-                          </li>
+                          </li> */}
                         </ul>
                       </li>
-                      <li className="navbar__item nav-fade">
-                        <Link href="about-us" style={{color : "black", fontWeight :"bold"}}>About Us</Link>
+                      <li className="navbar__item nav-fade" >
+                        <Link href="about-us" >About Us</Link>
                       </li>
                       <li className="navbar__item navbar__item--has-children nav-fade">
                         <button

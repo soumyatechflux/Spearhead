@@ -222,12 +222,12 @@ const FooterThree = () => {
                     <div className="footer__copyright-text text-center text-lg-start">
                       <p>
                         Copyright &copy;
-                        <span id="copyYear">{currentYear}</span> Spearhead by{" "}
+                        <span id="copyYear">{currentYear}</span> Spearhead Creativity by{" "}
                         <Link
                           href="https://themeforest.net/user/UltraDevs"
                           target="_blank"
                         >
-                          UltraDevs
+                          Paul Williams
                         </Link>{" "}
                         . All Rights Reserved
                       </p>
@@ -236,7 +236,7 @@ const FooterThree = () => {
                   <div className="col-12 col-lg-4">
                     <div className="text-center text-lg-end">
                       <Link href="/" className="logo">
-                        <Image src={logo} alt="Image" />
+                        <Image style={{height:"60px", width:"120px"}} src={logo} alt="Image" />
                       </Link>
                     </div>
                   </div>

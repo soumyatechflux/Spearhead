@@ -17,7 +17,7 @@ const PortfolioText = () => {
   const [hover, setHover] = useState(0);
   return (
     <section className="section portfolio pb-0 fade-wrapper position-relative">
-      <div className="portfolio__text-slider-w">
+      {/* <div className="portfolio__text-slider-w">
         <Swiper
           slidesPerView="auto"
           spaceBetween={40}
@@ -104,8 +104,8 @@ const PortfolioText = () => {
             </div>
           </SwiperSlide>
         </Swiper>
-      </div>
-      <div className="container-fluid">
+      </div> */}
+      {/* <div className="container-fluid">
         <div className="row gaper">
           <div className="col-12 col-sm-6 col-xl-3">
             <div
@@ -123,12 +123,12 @@ const PortfolioText = () => {
                   <i className="fa-sharp fa-solid fa-arrow-up-right"></i>
                 </Link>
                 <h4>
-                  <Link href="portfolio">Digital Marketing</Link>
+                  <Link href="portfolio">Creative Strategy Development</Link>
                 </h4>
               </div>
             </div>
-          </div>
-          <div className="col-12 col-sm-6 col-xl-3">
+          </div> */}
+          {/* <div className="col-12 col-sm-6 col-xl-3">
             <div
               className={
                 "portfolio__single topy-tilt fade-top" +
@@ -144,12 +144,12 @@ const PortfolioText = () => {
                   <i className="fa-sharp fa-solid fa-arrow-up-right"></i>
                 </Link>
                 <h4>
-                  <Link href="portfolio">Digital Marketing</Link>
+                  <Link href="portfolio">Ideation Workshops</Link>
                 </h4>
               </div>
             </div>
-          </div>
-          <div className="col-12 col-sm-6 col-xl-3">
+          </div> */}
+          {/* <div className="col-12 col-sm-6 col-xl-3">
             <div
               className={
                 "portfolio__single topy-tilt fade-top" +
@@ -165,12 +165,12 @@ const PortfolioText = () => {
                   <i className="fa-sharp fa-solid fa-arrow-up-right"></i>
                 </Link>
                 <h4>
-                  <Link href="portfolio">Digital Marketing</Link>
+                  <Link href="portfolio">Trend Analysis</Link>
                 </h4>
               </div>
             </div>
-          </div>
-          <div className="col-12 col-sm-6 col-xl-3">
+          </div> */}
+          {/* <div className="col-12 col-sm-6 col-xl-3">
             <div
               className={
                 "portfolio__single topy-tilt fade-top" +
@@ -186,12 +186,12 @@ const PortfolioText = () => {
                   <i className="fa-sharp fa-solid fa-arrow-up-right"></i>
                 </Link>
                 <h4>
-                  <Link href="portfolio">Digital Marketing</Link>
+                  <Link href="portfolio">Market Research</Link>
                 </h4>
               </div>
             </div>
-          </div>
-          <div className="col-12 col-sm-6 col-xl-3">
+          </div> */}
+          {/* <div className="col-12 col-sm-6 col-xl-3">
             <div
               className={
                 "portfolio__single topy-tilt fade-top" +
@@ -207,12 +207,12 @@ const PortfolioText = () => {
                   <i className="fa-sharp fa-solid fa-arrow-up-right"></i>
                 </Link>
                 <h4>
-                  <Link href="portfolio">Digital Marketing</Link>
+                  <Link href="portfolio">Innovation Roadmapping</Link>
                 </h4>
               </div>
             </div>
-          </div>
-          <div className="col-12 col-sm-6 col-xl-3">
+          </div> */}
+          {/* <div className="col-12 col-sm-6 col-xl-3">
             <div
               className={
                 "portfolio__single topy-tilt fade-top" +
@@ -228,12 +228,12 @@ const PortfolioText = () => {
                   <i className="fa-sharp fa-solid fa-arrow-up-right"></i>
                 </Link>
                 <h4>
-                  <Link href="portfolio">Digital Marketing</Link>
+                  <Link href="portfolio">Creative Evaluation</Link>
                 </h4>
               </div>
             </div>
-          </div>
-          <div className="col-12 col-sm-6 col-xl-3">
+          </div> */}
+          {/* <div className="col-12 col-sm-6 col-xl-3">
             <div className="portfolio__single-alt-wrapper fade-top">
               <div className="portfolio__single-alt topy-tilt">
                 <h4>
@@ -246,8 +246,8 @@ const PortfolioText = () => {
                 <Image src={dot} alt="Image" className="dot-two" />
               </div>
             </div>
-          </div>
-          <div className="col-12 col-sm-6 col-xl-3">
+          </div> */}
+          {/* <div className="col-12 col-sm-6 col-xl-3">
             <div
               className={
                 "portfolio__single topy-tilt fade-top" +
@@ -263,13 +263,13 @@ const PortfolioText = () => {
                   <i className="fa-sharp fa-solid fa-arrow-up-right"></i>
                 </Link>
                 <h4>
-                  <Link href="portfolio">Digital Marketing</Link>
+                  <Link href="portfolio">Optimization</Link>
                 </h4>
               </div>
             </div>
-          </div>
-        </div>
-      </div>
+          </div> */}
+        {/* </div>
+      </div> */}
       <div className="lines d-none d-lg-flex">
         <div className="line"></div>
         <div className="line"></div>

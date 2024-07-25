@@ -31,7 +31,7 @@ const TeamMain = () => {
                   <h4>
                     <Link href="team-single">Sana p. Lesh</Link>
                   </h4>
-                  <p>Chief Marketing Officer (CMO)</p>
+                  <p>Senior engineer</p>
                   <div className="social-alt">
                     <Link
                       href="https://www.facebook.com/"
@@ -77,7 +77,7 @@ const TeamMain = () => {
                   <h4>
                     <Link href="team-single">Sana p. Lesh</Link>
                   </h4>
-                  <p>Chief Marketing Officer (CMO)</p>
+                  <p>Senior engineer</p>
                   <div className="social-alt">
                     <Link
                       href="https://www.facebook.com/"
@@ -123,7 +123,7 @@ const TeamMain = () => {
                   <h4>
                     <Link href="team-single">Sana p. Lesh</Link>
                   </h4>
-                  <p>Chief Marketing Officer (CMO)</p>
+                  <p>Senior engineer</p>
                   <div className="social-alt">
                     <Link
                       href="https://www.facebook.com/"
@@ -169,7 +169,7 @@ const TeamMain = () => {
                   <h4>
                     <Link href="team-single">Sana p. Lesh</Link>
                   </h4>
-                  <p>Chief Marketing Officer (CMO)</p>
+                  <p>Senior engineer</p>
                   <div className="social-alt">
                     <Link
                       href="https://www.facebook.com/"
@@ -215,7 +215,7 @@ const TeamMain = () => {
                   <h4>
                     <Link href="team-single">Sana p. Lesh</Link>
                   </h4>
-                  <p>Chief Marketing Officer (CMO)</p>
+                  <p>Senior engineer</p>
                   <div className="social-alt">
                     <Link
                       href="https://www.facebook.com/"
@@ -261,7 +261,7 @@ const TeamMain = () => {
                   <h4>
                     <Link href="team-single">Sana p. Lesh</Link>
                   </h4>
-                  <p>Chief Marketing Officer (CMO)</p>
+                  <p>Senior engineer</p>
                   <div className="social-alt">
                     <Link
                       href="https://www.facebook.com/"

@@ -159,16 +159,12 @@ const HomeTestimonial = () => {
                           </div>
                           <div className="content">
                             <h4>
-                              posuere luctus orci. Donec vitae mattis quam,
-                              vitae tempor arcu. Aenean non odio porttitor,
-                              convallis erat sit amet, facilisis velit. Nulla
-                              ornare convallis malesuada. Phasellus molestie,
-                              ipsum ac fringilla.
+                            "Our experience with Spearhead Creativity was exceptional. Their team's expertise and dedication ensured a seamless execution of our project."
                             </h4>
                           </div>
                           <div className="content-cta">
-                            <h5>Paul Williams</h5>
-                            <p>Chief Marketing Officer (CMO)</p>
+                            <h5>Daniel Smith</h5>
+                            <p>Senior engineer</p>
                           </div>
                         </div>
                       </div>
@@ -203,16 +199,12 @@ const HomeTestimonial = () => {
                           </div>
                           <div className="content">
                             <h4>
-                              posuere luctus orci. Donec vitae mattis quam,
-                              vitae tempor arcu. Aenean non odio porttitor,
-                              convallis erat sit amet, facilisis velit. Nulla
-                              ornare convallis malesuada. Phasellus molestie,
-                              ipsum ac fringilla.
+                            "We couldn't have asked for a better partner than Spearhead Creativity. Their dedication to understanding our unique needs ensured a tailored solution."
                             </h4>
                           </div>
                           <div className="content-cta">
-                            <h5>Paul Williams</h5>
-                            <p>Chief Marketing Officer (CMO)</p>
+                            <h5>Daniel Smith</h5>
+                            <p>Senior engineer</p>
                           </div>
                         </div>
                       </div>
@@ -247,16 +239,12 @@ const HomeTestimonial = () => {
                           </div>
                           <div className="content">
                             <h4>
-                              posuere luctus orci. Donec vitae mattis quam,
-                              vitae tempor arcu. Aenean non odio porttitor,
-                              convallis erat sit amet, facilisis velit. Nulla
-                              ornare convallis malesuada. Phasellus molestie,
-                              ipsum ac fringilla.
+                            "We are extremely pleased with the results delivered by Spearhead Creativity. Their attention to detail and proactive communication made all the difference.".
                             </h4>
                           </div>
                           <div className="content-cta">
-                            <h5>Paul Williams</h5>
-                            <p>Chief Marketing Officer (CMO)</p>
+                            <h5>Daniel Smith</h5>
+                            <p>Senior engineer</p>
                           </div>
                         </div>
                       </div>

@@ -14,7 +14,9 @@ const ClientFeedbackMain = () => {
                   <i className="fa-solid fa-quote-right"></i>
                 </div>
                 <p>
-                For over 20 years, Paul Williams has been working with some of the world’s most prestigious brands, helping them achieve commercial success through strategy-driven creativity. This includes implementing household names such as Arabian Business (Arabic and English) and acting as a catalyst for change for the likes of Dubai Tourism, Marriott International, Accor, ADCB, Cartier, Expo2020, Government entities, and Family-run offices.
+                  posuere luctus orci. Donec vitae mattis quam, vitae tempor
+                  arcu. Aenean non odio porttitor, convallis erat sit amet,
+                  facilisis velit.
                 </p>
               </div>
               <hr />
@@ -23,8 +25,8 @@ const ClientFeedbackMain = () => {
                   <Image src={avatar} alt="Image" />
                 </div>
                 <div className="author-meta">
-                  <h5>Paul Williams</h5>
-                  <p>Chief Marketing Officer (CMO)</p>
+                  <h5>Daniel Smith</h5>
+                  <p>Senior engineer</p>
                 </div>
               </div>
             </div>
@@ -36,7 +38,9 @@ const ClientFeedbackMain = () => {
                   <i className="fa-solid fa-quote-right"></i>
                 </div>
                 <p>
-                For over 20 years, Paul Williams has been working with some of the world’s most prestigious brands, helping them achieve commercial success through strategy-driven creativity. This includes implementing household names such as Arabian Business (Arabic and English) and acting as a catalyst for change for the likes of Dubai Tourism, Marriott International, Accor, ADCB, Cartier, Expo2020, Government entities, and Family-run offices.
+                  posuere luctus orci. Donec vitae mattis quam, vitae tempor
+                  arcu. Aenean non odio porttitor, convallis erat sit amet,
+                  facilisis velit.
                 </p>
               </div>
               <hr />
@@ -45,8 +49,8 @@ const ClientFeedbackMain = () => {
                   <Image src={avatar} alt="Image" />
                 </div>
                 <div className="author-meta">
-                  <h5>Paul Williams</h5>
-                  <p>Chief Marketing Officer (CMO)</p>
+                  <h5>Daniel Smith</h5>
+                  <p>Senior engineer</p>
                 </div>
               </div>
             </div>
@@ -58,7 +62,9 @@ const ClientFeedbackMain = () => {
                   <i className="fa-solid fa-quote-right"></i>
                 </div>
                 <p>
-                For over 20 years, Paul Williams has been working with some of the world’s most prestigious brands, helping them achieve commercial success through strategy-driven creativity. This includes implementing household names such as Arabian Business (Arabic and English) and acting as a catalyst for change for the likes of Dubai Tourism, Marriott International, Accor, ADCB, Cartier, Expo2020, Government entities, and Family-run offices.
+                  posuere luctus orci. Donec vitae mattis quam, vitae tempor
+                  arcu. Aenean non odio porttitor, convallis erat sit amet,
+                  facilisis velit.
                 </p>
               </div>
               <hr />
@@ -67,8 +73,8 @@ const ClientFeedbackMain = () => {
                   <Image src={avatar} alt="Image" />
                 </div>
                 <div className="author-meta">
-                  <h5>Paul Williams</h5>
-                  <p>Chief Marketing Officer (CMO)</p>
+                  <h5>Daniel Smith</h5>
+                  <p>Senior engineer</p>
                 </div>
               </div>
             </div>
@@ -80,7 +86,9 @@ const ClientFeedbackMain = () => {
                   <i className="fa-solid fa-quote-right"></i>
                 </div>
                 <p>
-                For over 20 years, Paul Williams has been working with some of the world’s most prestigious brands, helping them achieve commercial success through strategy-driven creativity. This includes implementing household names such as Arabian Business (Arabic and English) and acting as a catalyst for change for the likes of Dubai Tourism, Marriott International, Accor, ADCB, Cartier, Expo2020, Government entities, and Family-run offices.
+                  posuere luctus orci. Donec vitae mattis quam, vitae tempor
+                  arcu. Aenean non odio porttitor, convallis erat sit amet,
+                  facilisis velit.
                 </p>
               </div>
               <hr />
@@ -89,8 +97,8 @@ const ClientFeedbackMain = () => {
                   <Image src={avatar} alt="Image" />
                 </div>
                 <div className="author-meta">
-                  <h5>Paul Williams</h5>
-                  <p>Chief Marketing Officer (CMO)</p>
+                  <h5>Daniel Smith</h5>
+                  <p>Senior engineer</p>
                 </div>
               </div>
             </div>
@@ -102,7 +110,9 @@ const ClientFeedbackMain = () => {
                   <i className="fa-solid fa-quote-right"></i>
                 </div>
                 <p>
-                For over 20 years, Paul Williams has been working with some of the world’s most prestigious brands, helping them achieve commercial success through strategy-driven creativity. This includes implementing household names such as Arabian Business (Arabic and English) and acting as a catalyst for change for the likes of Dubai Tourism, Marriott International, Accor, ADCB, Cartier, Expo2020, Government entities, and Family-run offices.
+                  posuere luctus orci. Donec vitae mattis quam, vitae tempor
+                  arcu. Aenean non odio porttitor, convallis erat sit amet,
+                  facilisis velit.
                 </p>
               </div>
               <hr />
@@ -111,8 +121,8 @@ const ClientFeedbackMain = () => {
                   <Image src={avatar} alt="Image" />
                 </div>
                 <div className="author-meta">
-                  <h5>Paul Williams</h5>
-                  <p>Chief Marketing Officer (CMO)</p>
+                  <h5>Daniel Smith</h5>
+                  <p>Senior engineer</p>
                 </div>
               </div>
             </div>
@@ -124,7 +134,9 @@ const ClientFeedbackMain = () => {
                   <i className="fa-solid fa-quote-right"></i>
                 </div>
                 <p>
-                For over 20 years, Paul Williams has been working with some of the world’s most prestigious brands, helping them achieve commercial success through strategy-driven creativity. This includes implementing household names such as Arabian Business (Arabic and English) and acting as a catalyst for change for the likes of Dubai Tourism, Marriott International, Accor, ADCB, Cartier, Expo2020, Government entities, and Family-run offices.
+                  posuere luctus orci. Donec vitae mattis quam, vitae tempor
+                  arcu. Aenean non odio porttitor, convallis erat sit amet,
+                  facilisis velit.
                 </p>
               </div>
               <hr />
@@ -133,8 +145,8 @@ const ClientFeedbackMain = () => {
                   <Image src={avatar} alt="Image" />
                 </div>
                 <div className="author-meta">
-                  <h5>Paul Williams</h5>
-                  <p>Chief Marketing Officer (CMO)</p>
+                  <h5>Daniel Smith</h5>
+                  <p>Senior engineer</p>
                 </div>
               </div>
             </div>
