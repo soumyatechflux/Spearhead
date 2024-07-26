@@ -7,7 +7,7 @@ import HomeTwoOfferLight from "@/components/containers/home-two/HomeTwoOfferLigh
 import HomeTwoModal from "@/components/containers/home-two/HomeTwoModal";
 import NextPage from "@/components/containers/home/NextPage";
 import HomeTwoPortfolio from "@/components/containers/home-two/HomeTwoPortfolio";
-import HomeTwoTestimonial from "@/components/containers/home-two/HomeTwoTestimonial";
+// import HomeTwoTestimonial from "@/components/containers/home-two/HomeTwoTestimonial";
 import HomeTwoBlogLight from "@/components/containers/home-two/HomeTwoBlogLight";
 import HomeTwoCta from "@/components/containers/home-two/HomeTwoCta";
 
@@ -20,7 +20,7 @@ const HomeTwoLight = () => {
       <HomeTwoOfferLight />
       <HomeTwoModal />
       <HomeTwoPortfolio />
-      <HomeTwoTestimonial />
+      {/* <HomeTwoTestimonial /> */}
       <HomeTwoBlogLight />
       <HomeTwoCta />
       <NextPage />

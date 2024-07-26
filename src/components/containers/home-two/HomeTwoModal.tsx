@@ -37,14 +37,14 @@ const HomeTwoModal = () => {
   return (
     <>
       <div className="video-modal">
-        <Image src={modalbg} alt="Image" className="modal-bg" />
+        {/* <Image src={modalbg} alt="Image" className="modal-bg" />
         <button
           className="video-frame video-btn"
           onClick={() => setVideoActive(true)}
         >
           <Image src={frame} alt="Image" />
           <i className="fa-sharp fa-solid fa-play"></i>
-        </button>
+        </button> */}
       </div>
       <div
         className={(videoActive ? " video-zoom-in" : " ") + " video-backdrop"}

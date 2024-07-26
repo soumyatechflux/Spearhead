@@ -182,11 +182,11 @@ const Offcanvas = ({ openNav, setOpenNav }: HeaderProps) => {
                   <button
                     aria-label="dropdown menu"
                     className={`navbar__dropdown-label ${isSubMenuButton(
-                      "pages"
+                      "More"
                     )}`}
                     onClick={() => handleSubmenu("pages")}
                   >
-                    Pages
+                    More
                   </button>
                   <ul className={`navbar__sub-menu ${isSubMenuOpen("pages")}`}>
                     <li>

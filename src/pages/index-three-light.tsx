@@ -1,6 +1,6 @@
 import React from "react";
 import Layout from "@/components/layout/Layout";
-import HomeThreeBanner from "@/components/layout/banner/HomeThreeBanner";
+// import HomeThreeBanner from "@/components/layout/banner/HomeThreeBanner";
 import HomeThreeServicesLight from "@/components/containers/home-three/HomeThreeServicesLight";
 import HomeThreeAgency from "@/components/containers/home-three/HomeThreeAgency";
 import HomeThreePortfolio from "@/components/containers/home-three/HomeThreePortfolio";
@@ -14,7 +14,7 @@ import NextPageLight from "@/components/containers/home/NextPageLight";
 const HomeThree = () => {
   return (
     <Layout header={3} footer={3} video={true}>
-      <HomeThreeBanner />
+      {/* <HomeThreeBanner /> */}
       <HomeThreeServicesLight />
       <HomeThreeAgency />
       <HomeThreePortfolio />

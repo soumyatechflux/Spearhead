@@ -26,7 +26,7 @@ const HomeTwoAward = () => {
               </h2>
               <div className="paragraph">
                 <p>
-                Established in 2022, Spearhead Creativity has built a solid reputation for exceeding client expectations. We've collaborated with top clients across diverse sectors, from technology to healthcare, delivering standout campaigns.
+                As an award-winning sales professional and senior management executive, Paul has an exceptional ability to tap into a brand’s strengths in a way that resonates with both stakeholders and external audiences. During the global pandemic, he recognized a widespread desire for simplicity amid uncertainty. This insight led him to establish Spearhead Creativity, an independent boutique agency. Today, Spearhead Creativity collaborates with emerging, pivoting, and established brands, guiding them through the ever-changing new normal with robust brand strategies from inception to implementation.
                 </p>
               </div>
               <div className="award__content-meta">

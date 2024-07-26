@@ -102,7 +102,7 @@ const WorkSteps = () => {
                 <div
                   className="work-thumb-hover d-none d-md-block"
                   style={{
-                    backgroundImage: "url('/images/work/thumb-one.png')",
+                    backgroundImage: "url('/images/work/thumb-two.png')",
                   }}
                 ></div>
               </div>
@@ -144,7 +144,7 @@ const WorkSteps = () => {
                 <div
                   className="work-thumb-hover d-none d-md-block"
                   style={{
-                    backgroundImage: "url('/images/work/thumb-one.png')",
+                    backgroundImage: "url('/images/work/thumb-four.png')",
                   }}
                 ></div>
               </div>

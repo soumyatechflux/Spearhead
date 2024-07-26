@@ -178,7 +178,7 @@ const Header = ({ openNav, handleNav, setOpenNav }: HeaderProps) => {
                           aria-label="dropdown menu"
                           className="navbar__dropdown-label"
                         >
-                          Pages
+                          More
                         </button>
                         <ul className="navbar__sub-menu">
                           <li>

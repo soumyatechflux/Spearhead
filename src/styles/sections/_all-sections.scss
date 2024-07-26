@@ -2,6 +2,97 @@
  --------- (5.0) all sections styles start ---------
  ==== */
 
+ .container1 {
+  display: flex;
+  color: #000;
+}
+
+.container1 {
+  display: flex;
+   /* Set the background color to white */
+  color: #000;
+}
+
+.head{
+  // color: rgba(0, 0, 0, .2);
+    font-size: 100px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1;
+}
+
+.round-button {
+  width: 135px;
+    height: 132px;
+    border-radius: 50%;
+    background-color: white;
+    color: black;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 17px;
+    cursor: pointer;
+    outline: none;
+    font-weight: bold;
+    margin-left: 73px;
+    margin-top: 50px;
+}
+
+.round-button:hover {
+  background-color: #0056b3; /* Darker color on hover */
+}
+
+.section1, .section2 {
+  flex: 1;
+  padding: 20px;
+  animation: move 1s linear;
+  transition-delay: 4s;
+  // border: 1px solid #ccc;
+  margin: 10px;
+}
+
+.section1 h2, .section2 h2 {
+  margin-top: 0;
+   color: #000;
+}
+
+
+.section-image {
+  width: 70%;
+  height: auto;
+  display: block;
+  margin-top: 70px;
+  align-items: center;
+  justify-content: center;
+  margin-left: 90px;
+}
+
+.zx {
+  font-size: 16px; /* Example for additional styling */
+  margin-left: 71px;
+    margin-top: 25px;
+}
+
+.container1 .section2 {
+  transition: opacity 4s ease, transform 0.5s ease;
+}
+
+.container1 .section2:hover {
+  // opacity: 0.5; /* Change opacity */
+  transform: translateZ(15px) scale(1.1) translateX(-50px);/* Change transform */
+}
+
+.container1 .section1 {
+  transition: opacity 4s ease, transform 0.5s ease;
+}
+
+.container1 .section1:hover {
+  // opacity: 0.5; /* Change opacity */
+  transform: translateZ(15px) scale(1.1) translateX(50px);/* Change transform */
+}
+
+
 // 5.01  agency styles
 .agency {
   background-color: var(--tertiary-color);
