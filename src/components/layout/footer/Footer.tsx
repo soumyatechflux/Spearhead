@@ -1,7 +1,7 @@
 import React from "react";
 import Image from "next/image";
 import Link from "next/link";
-import logo from "public/images/logo.png";
+import logo from "public/images/logoas.svg";
 
 const Footer = () => {
   const currentYear = new Date().getFullYear();
@@ -9,13 +9,17 @@ const Footer = () => {
     <footer
       className="footer section pb-0"
       style={{ backgroundImage: "url('/images/footer/footer-bg.png')" }}
-    >
+      >
+         {/* <video autoPlay muted loop className="footer-video">
+         <source src="/videos/footer/footer-bg.mp4" type="video/mp4" /></video> */}
+
+         
       <div className="container">
         <div className="row gaper">
           <div className="col-12 col-lg-5 col-xl-6">
             <div className="footer__single">
               <Link href="/" className="logo">
-                <Image style={{height:"60px", width:"120px"}} src={logo} alt="Image" />
+                <Image style={{height:"100px", width:"100px",background:"white", borderRadius:"100%"}} src={logo} alt="Image" />
               </Link>
               <div className="footer__single-meta">
                 <Link
@@ -23,15 +27,15 @@ const Footer = () => {
                   target="_blank"
                 >
                   <i className="fa-sharp fa-solid fa-location-dot"></i>
-                  901 N Pitt Str., Suite 170 Alexandria, USA
+                   Business Center 1. M Floor The Meydan Hotel | Nad Al Sheba | Dubai | UAE
                 </Link>
-                <Link href="tel:406-555-0120">
+                <Link href="tel:+971 566121551">
                   <i className="fa-sharp fa-solid fa-phone-volume"></i>
-                  (406) 555-0120
+                  +971 566121551
                 </Link>
-                <Link href="mailto:info@xpovio.com">
+                <Link href="mailto:ceo@spearheadcreativity.com ">
                   <i className="fa-sharp fa-solid fa-envelope"></i>
-                  info@xpovio.com
+                  ceo@spearheadcreativity.com 
                 </Link>
               </div>
               <div className="footer__cta text-start">

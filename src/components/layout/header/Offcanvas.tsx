@@ -261,6 +261,8 @@ const Offcanvas = ({ openNav, setOpenNav }: HeaderProps) => {
               </Link>
             </div>
           </div>
+
+          
           <div className="offcanvas-menu__social social nav-fade">
             <Link
               href="https://www.facebook.com/"

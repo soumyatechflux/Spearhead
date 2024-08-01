@@ -35,13 +35,13 @@ const ContactMain = () => {
               <div className="content">
                 <h4>Mail Address</h4>
                 <p>
-                  <Link href="mailto:info.company@gmail.com">
-                    Info.company@gmail.com
+                  <Link href="mailto:ceo@spearheadcreativity.com">
+                  ceo@spearheadcreativity.com
                   </Link>
                 </p>
                 <p>
-                  <Link href="mailto:info.company@gmail.com">
-                    Info.company@yahoo.com
+                  <Link href="mailto:ceo@spearheadcreativity.com">
+                  ceo@spearheadcreativity.com
                   </Link>
                 </p>
               </div>

@@ -4,9 +4,10 @@
 
 //  header
 .ADS {
-  color: black;
+  color: white;
   font-weight: bold;
   padding-right: 10px;
+  // transform: to-upper-case($string: "");
 }
 
 .ADS:hover {
@@ -28,9 +29,10 @@
     justify-content: space-between;
     gap: 60px;
     flex-wrap: wrap;
-    background-color: #fff;
+    // background-color: #fff;
     border-radius:  46px;
     height: 100px;
+    // background-image: linear-gradient(to left, #ed4264, #ffedbc);
   }
 
   .navbar__menu {
@@ -51,11 +53,12 @@
       text-transform: uppercase;
       font-weight: 1000;
       width: 100%;
-      color: #191919;
+      color: white;
     }
   }
 
   .navbar__item--has-children {
+    
     position: relative;
 
     &:hover {
@@ -191,9 +194,18 @@
     gap: 30px;
   }
 
+  .navbar__options1 {
+    // display: flex;
+    display: none;
+    align-items: center;
+    gap: 30px;
+  }
+
+  
   .open-mobile-menu {
     font-size: 30px;
     color: var(--white);
+
   }
 }
 
@@ -461,7 +473,7 @@
     }
   }
 
-  .navbar__options {
+  .navbar__options1 {
     gap: 0px;
   }
 

@@ -4,6 +4,8 @@ import ServiceDetailsMain from "@/components/containers/service-details/ServiceD
 import ServiceDetailsBanner from "@/components/layout/banner/ServiceDetailsBanner";
 import UxProcess from "@/components/containers/service-details/UxProcess";
 import CtaTwo from "@/components/containers/service-details/CtaTwo";
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom" 
+import ServiceMain from '../components/containers/ServiceMain';
 
 const ServiceDetails = () => {
   return (

@@ -2,7 +2,7 @@ import React from "react";
 import Image from "next/image";
 import Link from "next/link";
 import thumb from "public/images/footer/footer-three-thumb.png";
-import logo from "public/images/logo.png";
+import logo from "public/images/logoas.svg";
 
 const FooterThree = () => {
   const currentYear = new Date().getFullYear();
@@ -36,9 +36,9 @@ const FooterThree = () => {
                     </Link>
                   </li>
                   <li>
-                    <Link href="mailto:info@xpovio.com">
+                    <Link href="mailto:ceo@spearheadcreativity.com">
                       <i className="fa-sharp fa-solid fa-envelope"></i>
-                      info@xpovio.com
+                      ceo@spearheadcreativity.com
                     </Link>
                   </li>
                 </ul>
@@ -67,19 +67,19 @@ const FooterThree = () => {
                       target="_blank"
                     >
                       <i className="fa-sharp fa-solid fa-location-dot"></i>
-                      Wolfhager Strasse 425 - 70 Germany
+                      Business Center 1. M Floor The Meydan Hotel | Nad Al Sheba | Dubai | UAE
                     </Link>
                   </li>
                   <li>
-                    <Link href="tel:406-555-0120">
+                    <Link href="tel:+971 566121551">
                       <i className="fa-sharp fa-solid fa-phone-volume"></i>
-                      (406) 555-0120
+                      +971 566121551
                     </Link>
                   </li>
                   <li>
-                    <Link href="mailto:info@xpovio.com">
+                    <Link href="mailto:ceo@spearheadcreativity.com">
                       <i className="fa-sharp fa-solid fa-envelope"></i>
-                      info@xpovio.com
+                      ceo@spearheadcreativity.com
                     </Link>
                   </li>
                 </ul>
@@ -104,19 +104,19 @@ const FooterThree = () => {
                       target="_blank"
                     >
                       <i className="fa-sharp fa-solid fa-location-dot"></i>
-                      Wolfhager Strasse 425 - 70 Germany
+                      Business Center 1. M Floor The Meydan Hotel | Nad Al Sheba | Dubai | UAE
                     </Link>
                   </li>
                   <li>
                     <Link href="tel:406-555-0120">
                       <i className="fa-sharp fa-solid fa-phone-volume"></i>
-                      (406) 555-0120
+                      +971 566121551
                     </Link>
                   </li>
                   <li>
-                    <Link href="mailto:info@xpovio.com">
+                    <Link href="mailto:ceo@spearheadcreativity.com ">
                       <i className="fa-sharp fa-solid fa-envelope"></i>
-                      info@xpovio.com
+                      ceo@spearheadcreativity.com 
                     </Link>
                   </li>
                 </ul>
@@ -149,15 +149,15 @@ const FooterThree = () => {
                     </Link>
                   </li>
                   <li>
-                    <Link href="tel:406-555-0120">
+                    <Link href="tel:+971 566121551">
                       <i className="fa-sharp fa-solid fa-phone-volume"></i>
-                      (406) 555-0120
+                      +971 566121551
                     </Link>
                   </li>
                   <li>
-                    <Link href="mailto:info@xpovio.com">
+                    <Link href="mailto:ceo@spearheadcreativity.com">
                       <i className="fa-sharp fa-solid fa-envelope"></i>
-                      info@xpovio.com
+                      ceo@spearheadcreativity.com
                     </Link>
                   </li>
                 </ul>
@@ -186,15 +186,15 @@ const FooterThree = () => {
                     </Link>
                   </li>
                   <li>
-                    <Link href="tel:406-555-0120">
+                    <Link href="tel:+971 566121551">
                       <i className="fa-sharp fa-solid fa-phone-volume"></i>
-                      (406) 555-0120
+                      +971 566121551
                     </Link>
                   </li>
                   <li>
-                    <Link href="mailto:info@xpovio.com">
+                    <Link href="mailto:ceo@spearheadcreativity.com">
                       <i className="fa-sharp fa-solid fa-envelope"></i>
-                      info@xpovio.com
+                      ceo@spearheadcreativity.com
                     </Link>
                   </li>
                 </ul>

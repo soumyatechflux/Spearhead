@@ -1,7 +1,7 @@
 import React, { useState, useEffect, useRef } from "react";
 import Image from "next/image";
 import Link from "next/link";
-import logo from "public/images/logo.png";
+import logo from "public/images/logoas.svg";
 import gsap from "gsap";
 import chroma from "chroma-js";
 import { ScrollTrigger } from "gsap/dist/ScrollTrigger";
@@ -113,7 +113,7 @@ const FooterFive = () => {
             <div className="footer-two__left">
               <div className="logo">
                 <Link href="/">
-                  <Image style={{height:"60px", width:"120px"}} src={logo} priority alt="Image" />
+                  <Image style={{height:"100px", width:"100px",background:"white", borderRadius:"100%"}} src={logo} priority alt="Image" />
                 </Link>
               </div>
               <div className="paragraph">
@@ -125,11 +125,11 @@ const FooterFive = () => {
               <div className="section__content-cta">
                 <h2>
                   <Link
-                    href="mailto:info@gmail.com"
+                    href="mailto:ceo@spearheadcreativity.com"
                     className="folks-text animated-text"
                     ref={animatedTextRef}
                   >
-                    info@gmail.com
+                    ceo@spearheadcreativity.com
                     {animatedTextContent.split("").map((char, index) => (
                       <span
                         aria-hidden="true"
@@ -174,15 +174,15 @@ const FooterFive = () => {
                   target="_blank"
                 >
                   <i className="fa-sharp fa-solid fa-location-dot"></i>
-                  901 N Pitt Str., Suite 170 Alexandria, USA
+                  Business Center 1. M Floor The Meydan Hotel | Nad Al Sheba | Dubai | UAE
                 </Link>
-                <Link href="tel:406-555-0120">
+                <Link href="tel:+971 566121551">
                   <i className="fa-sharp fa-solid fa-phone-volume"></i>
-                  (406) 555-0120
+                  +971 566121551
                 </Link>
-                <Link href="mailto:info@xpovio.com">
+                <Link href="mailto:ceo@spearheadcreativity.com ">
                   <i className="fa-sharp fa-solid fa-envelope"></i>
-                  info@xpovio.com
+                  ceo@spearheadcreativity.com 
                 </Link>
               </div>
             </div>

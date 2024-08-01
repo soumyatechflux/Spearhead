@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import Link from "next/link";
 import Image from "next/image";
-import logo from "public/images/logo.png";
+import logo from "public/images/logoas.svg";
 import Offcanvas from "./Offcanvas";
 
 interface HeaderProps {
@@ -45,22 +45,22 @@ const HeaderThree = ({ openNav, handleNav, setOpenNav }: HeaderProps) => {
               <div className="col-12">
                 <nav className="navbar p-0">
                   <div className="navbar__logo">
-                    <Link href="/" aria-label="go to home">
-                      <Image src={logo} alt="Image" style={{height : '50px', width: '100px'}} />
+                  <Link href="/" aria-label="go to home">
+                      <Image src={logo} priority alt="Image" style={{height : '100px', width: '100px', background:"white", borderRadius:"50%"}} />
                     </Link>
                   </div>
                   <div className="navbar__menu">
                     <ul>
                       <li className="navbar__item nav-fade">
-                        <Link href="tel:406-555-0120">
+                        <Link href="tel:+971 566121551">
                           <i className="fa-sharp fa-solid fa-phone-volume"></i>
-                          (406) 555-0120
+                          +971 566121551
                         </Link>
                       </li>
                       <li className="navbar__item nav-fade">
-                        <Link href="mailto:info@xpovio.com">
+                        <Link href="mailto:ceo@spearheadcreativity.com ">
                           <i className="fa-sharp fa-solid fa-envelope"></i>
-                          info@xpovio.com
+                          ceo@spearheadcreativity.com 
                         </Link>
                       </li>
                     </ul>
@@ -82,6 +82,16 @@ const HeaderThree = ({ openNav, handleNav, setOpenNav }: HeaderProps) => {
                         </Link>
                       </div>
                     </div>
+
+                    <div className="navbar__options1">
+                    <button 
+                      className="open-offcanvas-nav d-flex"
+                      aria-label="toggle mobile menu"
+                      title="open offcanvas menu"
+                      onClick={handleNav}
+                    ></button>
+                  </div>
+
                   </div>
                 </nav>
               </div>

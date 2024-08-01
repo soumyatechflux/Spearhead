@@ -55,13 +55,13 @@
   .banner-one-thumb {
     position: absolute;
     top: 220px;
-    left: 57%;
+    left: 50%;
     transform: translateX(-50%);
     z-index: -1;
     width: 100%;
     max-width: 494px;
-    height: auto;
-    border-radius: 50%;
+    height: 500px;
+    border-radius: 100%;
   }
 
   .star {

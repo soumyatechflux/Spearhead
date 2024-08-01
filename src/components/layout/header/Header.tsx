@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import { useRouter } from "next/router";
 import Image from "next/image";
 import Link from "next/link";
-import logo from "public/images/logo.png";
+import logo from "public/images/logoas.svg";
 import logoLight from "public/images/logo-light.png";
 import Offcanvas from "./Offcanvas";
 
@@ -11,6 +11,7 @@ interface HeaderProps {
   setOpenNav: (value: boolean) => void;
   handleNav: () => void;
 }
+
 
 const Header = ({ openNav, handleNav, setOpenNav }: HeaderProps) => {
   const [scrolled, setScrolled] = useState(false);
@@ -44,6 +45,7 @@ const Header = ({ openNav, handleNav, setOpenNav }: HeaderProps) => {
   if (router.pathname === "/index-light") {
     logoSrc = logoLight;
   }
+
 
   return (
     <>
@@ -81,7 +83,7 @@ const Header = ({ openNav, handleNav, setOpenNav }: HeaderProps) => {
                 <nav className="navbar p-0">
                   <div className="navbar__logo">
                     <Link href="/" aria-label="go to home">
-                      <Image src={logoSrc} priority alt="Image" style={{height : '50px', width: '100px'}} />
+                      <Image src={logoSrc} priority alt="Image" style={{height : '100px', width: '100px', background:"white", borderRadius:"50%"}} />
                     </Link>
                   </div>
                   <div className="navbar__menu">
@@ -144,7 +146,9 @@ const Header = ({ openNav, handleNav, setOpenNav }: HeaderProps) => {
                       <li className="navbar__item navbar__item--has-children nav-fade">
                         <button
                           aria-label="dropdown menu"
-                          className="navbar__dropdown-label"
+                          className={`${"navbar__dropdown-label"} ${"ADS"}`}
+                          // className="navbar__dropdown-label"
+                          // style={{color: "white"}}
                         >
                           Services
                         </button>
@@ -161,6 +165,7 @@ const Header = ({ openNav, handleNav, setOpenNav }: HeaderProps) => {
                         <button
                           aria-label="dropdown menu"
                           className="navbar__dropdown-label"
+                          // style={{color: "white"}}
                         >
                           Projects
                         </button>
@@ -177,6 +182,7 @@ const Header = ({ openNav, handleNav, setOpenNav }: HeaderProps) => {
                         <button
                           aria-label="dropdown menu"
                           className="navbar__dropdown-label"
+                          // style={{color: "white"}}
                         >
                           More
                         </button>
@@ -221,6 +227,7 @@ const Header = ({ openNav, handleNav, setOpenNav }: HeaderProps) => {
                         <button
                           aria-label="dropdown menu"
                           className="navbar__dropdown-label"
+                          // style={{color: "white"}}
                         >
                           Blog
                         </button>
@@ -241,6 +248,16 @@ const Header = ({ openNav, handleNav, setOpenNav }: HeaderProps) => {
                         Let&apos;s Talk
                       </Link>
                     </div>
+
+                    <div className="navbar__options1">
+                    <button 
+                      className="open-offcanvas-nav d-flex"
+                      aria-label="toggle mobile menu"
+                      title="open offcanvas menu"
+                      onClick={handleNav}
+                    ></button>
+                  </div>
+
                     <button
                       className="open-mobile-menu d-flex d-xl-none"
                       aria-label="toggle mobile menu"

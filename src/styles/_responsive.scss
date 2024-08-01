@@ -1067,7 +1067,15 @@
 
   .secondary--navbar {
     .open-offcanvas-nav {
-      @include box(60px);
+      // @include box(60px);
+      width: 60px;
+        min-width: 60px;
+        height: 60px;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-right: -48px;
     }
   }
 
@@ -1412,6 +1420,52 @@
 
 @media only screen and (min-width: 576px) {
 }
+
+
+
+// aniket
+
+@media only screen and (max-width: 991.98px) {
+
+  .container1 {
+    flex-direction: column;
+  }
+
+  .section23 {
+    order : 1;
+  }
+  .section3 {
+    order: 2;
+  }
+
+  .section-image1 {
+    width: 327px;
+    // margin-left: 28px;
+  }
+
+  .head {
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1;
+  }
+
+  .round-button {
+    width: 100px;
+    height: 100px;
+    background-color: #e74c3c;
+    color: white;
+    font-size: 14px;
+  }
+
+  .navbar__options1 {
+    display: block !important;
+    align-items: center;
+    gap: 80px;
+  }
+
+}
+
 
 /* ==== 
  --------- (7.0) responsive styles end ---------

@@ -4,11 +4,12 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay, Navigation } from "swiper/modules";
 import "swiper/swiper-bundle.css";
 import Image from "next/image";
-import { matchPath,useNavigate } from 'react-router-dom';
+import { useNavigate } from 'react-router-dom';
 
 import thumbone from "../../../public/images/agency/thumb-four.png";
 import thumbone1 from "../../../public/images/agency/thumb-five.png";
 import exampleImage from 'public/images/pexels.png';
+// import { useNavigate } from 'react-router-dom';
 
 const ServiceMain = () => {
   // const navigate = useNavigate();
@@ -285,84 +286,108 @@ const ServiceMain = () => {
         </div>
       </div>
 
-      <section className="image">
+{/* first container */}
 
+      <section className="image">
       <div className="container1">
-        <div className="section1">
+        <div className={`${"section1"} ${"section3"} ${"section23"}`}>
           <span className="head">01</span>
             <h3>Ideation Workshops</h3>
               <p className="zx">Our interactive and collaborative workshops ignite a spark of creativity among your team. Through thought-provoking exercises and techniques, we empower your team members to generate groundbreaking ideas and unique solutions.</p>
                 {/* <button className="round-button" onClick={handleReadMoreClick} > */}
-                <button className="round-button" >
-                   Read more
-                </button>
+                <Link
+                      href="service-single"
+                      className="round-button"
+                    >
+                     Read more
+                    </Link>
         </div>
-        <div className="section2">
-        <Image src={thumbone} alt="Example" className="section-image" />
-  
+
+          <div className={`${"section2"} ${"section23"}`}>
+              <Image src={thumbone} alt="Example" className="section-image1" />
+          </div>
+      </div>
+
+  {/* second container */}
+
+      <div className="container1">
+        <div className={`${"section2"}  ${"section23"} ${"section1"}`}>
+            <Image src={thumbone} alt="Example" className="section-image1" />
+         </div>
+
+        <div className={`${"section2"} ${"section3"}`}>
+          <span className="head">02</span>
+              <h3>Creative Strategy Development</h3>
+                <p className="zx"> We work closely with you to devise creative strategies that align with your business objectives and target audience. Our team ensures that your brand stands out and engages customers effectively.</p>
+                  {/* <button className="round-button" >
+                    Read more
+                  </button>     */}
+                  <Link
+                      href="service-single"
+                      className="round-button"
+                    >
+                     Read more
+                    </Link>
         </div>
       </div>
 
-      <div className="container1">
-        <div className="section1">
-        <Image src={thumbone} alt="Example" className="section-image" />
-   
-
-        </div>
-        <div className="section2">
-
-        <span className="head">02</span>
-            <h3>Creative Strategy Development</h3>
-              <p className="zx"> We work closely with you to devise creative strategies that align with your business objectives and target audience. Our team ensures that your brand stands out and engages customers effectively.
-              </p>
-                <button className="round-button" >
-                   Read more
-                </button>    
-        </div>
-      </div>
+ {/* third container */}
 
       <div className="container1">
-        <div className="section1">
+        <div className={`${"section1"} ${"section2"} ${"section3"}`}>
           <span className="head">03</span>
             <h3>Trend Analysis and Market Research</h3>
               <p className="zx">Stay ahead of the curve with our comprehensive trend analysis and market research services. We analyze industry trends, consumer behavior, and competitor insights to help you identify opportunities and capture the market.</p>
-                <button className="round-button" >
-                   Read more
-                </button>
+              <Link
+                      href="service-single"
+                      className="round-button"
+                    >
+                     Read more
+                    </Link>
         </div>
-        <div className="section2">
-        <Image src={thumbone1} alt="Example" className="section-image" />
-    
+
+        <div className={`${"section2"} ${"section23"}`}>
+            <Image src={thumbone1} alt="Example" className="section-image1" />
         </div>
       </div>
 
+{/* fourth container */}
+
       <div className="container1">
-        <div className="section1">
-        <Image src={thumbone} alt="Example" className="section-image" />
-    
+        <div className={`${"section1"} ${"section2"} ${"section23"}`}>
+        <Image src={thumbone} alt="Example" className="section-image1" />
         </div>
-        <div className="section2">
-        <span className="head">04</span>
-            <h3>Innovation Roadmapping (UX DESIGN)</h3>
-              <p className="zx">Our experts assist you in creating a roadmap for innovation, enabling you to implement new ideas seamlessly. We identify potential bottlenecks, devise actionable plans, and provide ongoing support to ensure successful implementation.</p>
-                <button className="round-button" >
-                   Read more
-                </button>
-          
+
+        <div className={`${"section2"} ${"section3"}`}>
+          <span className="head">04</span>
+              <h3>Innovation Roadmapping (UX DESIGN)</h3>
+                <p className="zx">Our experts assist you in creating a roadmap for innovation, enabling you to implement new ideas seamlessly. We identify potential bottlenecks, devise actionable plans, and provide ongoing support to ensure successful implementation.</p>
+                <Link
+                      href="service-single"
+                      className="round-button"
+                    >
+                     Read more
+                    </Link>
         </div>
       </div>
 
+ {/* fifth container */}
+
       <div className="container1">
-        <div className="section1">
+        <div className={`${"section1"} ${"section2"} ${"section3"}`}>
           <span className="head">05</span>
             <h3>Creative Evaluation and Optimization</h3>
               <p className="zx">We conduct rigorous evaluations of your creative campaigns, identifying areas for improvement and optimization. Through data-driven analysis and feedback, we guide you toward achieving maximum impact and ROI.</p>
-                <button className="round-button" >
-                   Read more
-                </button>
+              <Link
+                      href="service-single"
+                      className="round-button"
+                    >
+                     Read more
+                    </Link>
         </div>
-        <div className="section2">
-        <Image src={thumbone} alt="Example" className="section-image" />
+
+        <div className={`${"section2"} ${"section23"}`}>
+            <Image src={thumbone} alt="Example" className="section-image1" />
         </div>
       </div>
 

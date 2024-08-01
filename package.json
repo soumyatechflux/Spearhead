@@ -29,6 +29,7 @@
   },
   "devDependencies": {
     "@types/chroma-js": "^2.4.0",
+    "file-loader": "^6.2.0",
     "react-router-dom": "^6.25.1"
   }
 }

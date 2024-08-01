@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import Link from "next/link";
 import Image from "next/image";
 import { useRouter } from "next/router";
-import logo from "public/images/logo.png";
+import logo from "public/images/logoas.svg";
 import logoLight from "public/images/logo-light.png";
 import Offcanvas from "./Offcanvas";
 
@@ -54,8 +54,8 @@ const HeaderTwo = ({ openNav, handleNav, setOpenNav }: HeaderProps) => {
               <div className="col-12">
                 <nav className="navbar p-0">
                   <div className="navbar__logo">
-                    <Link href="/" aria-label="go to home">
-                      <Image src={logoSrc} priority alt="Image" style={{height : '50px', width: '100px'}} />
+                  <Link href="/" aria-label="go to home">
+                      <Image src={logoSrc} priority alt="Image" style={{height : '100px', width: '100px', background:"white", borderRadius:"50%"}} />
                     </Link>
                   </div>
                   <div className="navbar__menu">
@@ -215,6 +215,16 @@ const HeaderTwo = ({ openNav, handleNav, setOpenNav }: HeaderProps) => {
                         Let&apos;s Talk
                       </Link>
                     </div>
+
+                    <div className="navbar__options1">
+                    <button 
+                      className="open-offcanvas-nav d-flex"
+                      aria-label="toggle mobile menu"
+                      title="open offcanvas menu"
+                      onClick={handleNav}
+                    ></button>
+                  </div>
+
                     <button
                       className="open-mobile-menu d-flex d-xl-none"
                       aria-label="toggle mobile menu"

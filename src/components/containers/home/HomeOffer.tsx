@@ -5,6 +5,11 @@ import blogthumb from "public/images/offer/blog-thumb.png";
 import two from "public/images/offer/two.png";
 import three from "public/images/offer/three.png";
 import star from "public/images/offer/star.png";
+import thumbone from "../../../../public/images/agency/thumb-four.png";
+import str from "public/images/str1.png";
+import str2 from "public/images/str2.png";
+import str3 from "public/images/str3.png";
+import str4 from "public/images/str4.png";
 
 const HomeOffer = () => {
   useEffect(() => {
@@ -31,7 +36,62 @@ const HomeOffer = () => {
   }, []);
 
   return (
+
+
+
+
     <section className="section offer fade-wrapper light">
+      {/* <h2 className="title title-anim" style={{padding: "20px", fontSize:"60px" , fontWeight:"500px"}}>Core Capabilities</h2>
+
+<div className="container2">
+
+
+  <div className="box">
+    <div className="content">Strategic Planning    </div>
+    <div className="image"><Image src={str} alt="Image" /></div>
+  </div>
+  <div className="box">
+    <div className="content">Concept Design</div>
+    <div className="image"><Image src={str2} alt="Image" /></div>
+  </div>
+  
+</div>
+
+<div className={`${"container2"} ${"con"}`}>
+  <div className="box">
+    <div className="content">Asset Development</div>
+    <div className="image"><Image src={str3} alt="Image" /></div>
+  </div>
+  <div className="box">
+    <div className="content">Brand Activations & Engagement</div>
+    <div className="image"><Image src={str4} alt="Image" /></div>
+  </div>
+</div> */}
+
+{/* <div className="container1">
+        <div className={`${"section1"} ${"section3"} ${"section23"}`}>
+          <span className="head">01</span>
+            <h3>Ideation Workshops</h3>
+              <p className="zx">Our interactive and collaborative workshops ignite a spark of creativity among your team. Through thought-provoking exercises and techniques, we empower your team members to generate groundbreaking ideas and unique solutions.</p>
+                
+                <Link
+                      href="service-single"
+                      className="round-button"
+                    >
+                     Read more
+                    </Link>
+        </div>
+
+          <div className={`${"section2"} ${"section23"}`}>
+              <Image src={thumbone} alt="Example" className="section-image1" />
+          </div>
+      </div> */}
+
+
+
+
+
+
       <div className="container">
         <div className="row gaper">
           <div className="col-12 col-lg-5">
@@ -41,11 +101,11 @@ const HomeOffer = () => {
                 <i className="fa-solid fa-arrow-right"></i>
               </span>
               <h2 className="title title-anim">
-              Spearhead Creativity
+                Spearhead Creativity
               </h2>
               <div className="paragraph">
                 <p>
-                We're a dynamic Branding, Marketing, Communications, PR, and Advisory Service Company based in Dubai, UAE. With over 18 years of industry expertise, we're your go-to partners for exceptional results.
+                  We're a dynamic Branding, Marketing, Communications, PR, and Advisory Service Company based in Dubai, UAE. With over 18 years of industry expertise, we're your go-to partners for exceptional results.
 
                 </p>
               </div>
@@ -65,7 +125,7 @@ const HomeOffer = () => {
                 </span>
                 <h2>
                   <Link href="service-single">
-                  Innovation Roadmapping (UX DESIGN)
+                    Innovation Roadmapping (UX DESIGN)
                     <i className="fa-sharp fa-solid fa-arrow-up-right"></i>
                   </Link>
                 </h2>
@@ -80,7 +140,7 @@ const HomeOffer = () => {
                 </span>
                 <h2>
                   <Link href="service-single">
-                  Creative Strategy Development
+                    Creative Strategy Development
                     <i className="fa-sharp fa-solid fa-arrow-up-right"></i>
                   </Link>
                 </h2>
@@ -95,7 +155,7 @@ const HomeOffer = () => {
                 </span>
                 <h2>
                   <Link href="service-single">
-                  Ideation Workshops
+                    Ideation Workshops
                     <i className="fa-sharp fa-solid fa-arrow-up-right"></i>
                   </Link>
                 </h2>
@@ -110,7 +170,7 @@ const HomeOffer = () => {
                 </span>
                 <h2>
                   <Link href="service-single">
-                  Trend Analysis and Market Research
+                    Trend Analysis and Market Research
                     <i className="fa-sharp fa-solid fa-arrow-up-right"></i>
                   </Link>
                 </h2>

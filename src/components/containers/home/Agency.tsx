@@ -3,10 +3,12 @@ import Link from "next/link";
 import Image from "next/image";
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/dist/ScrollTrigger";
-import thumbone from "public/images/agency/thumb-one.png";
+// import thumbone from "public/images/agency/thumb-one.png";
+import thumbone from "public/images/agency/ani.png";
 import thumbtwo from "public/images/agency/thumb-two.png";
 import star from "public/images/star.png";
 import dotlarge from "public/images/agency/dot-large.png";
+
 
 gsap.registerPlugin(ScrollTrigger);
 const Agency = () => {
@@ -85,6 +87,10 @@ const Agency = () => {
                 className="thumb-one fade-left"
                 priority
               />
+                {/* <div  className="thumb-one fade-left" >
+                          18+ Years of Experience
+                </div> */}
+
               <Image
                 src={thumbtwo}
                 alt="Image"
@@ -93,21 +99,68 @@ const Agency = () => {
               />
             </div>
           </div>
-        
+
           <div className="col-12 col-lg-6">
             <div className="agency__content section__content">
               <span className="sub-title">
-                WELCOME
+                WELCOME Spearhead Creativity
                 <i className="fa-solid fa-arrow-right"></i>
               </span>
               <h2 className="title title-anim">
-              Spearhead Creativity 
+                About Spearhead Creativity
               </h2>
               <div className="paragraph">
                 <p>
-                For over 20 years, Paul Williams has been working with some of the world’s most prestigious brands, helping them achieve commercial success through strategy-driven creativity. This includes implementing household names such as Arabian Business (Arabic and English) and acting as a catalyst for change for the likes of Dubai Tourism, Marriott International, Accor, ADCB, Cartier, Expo2020, Government entities, and Family-run offices.
-
+                  We're a dynamic Branding, Marketing, Communications, PR, and Advisory Service Company based in Dubai, UAE. With over 18 years of industry expertise, we're your go-to partners for exceptional results.
                 </p>
+                <ul>
+                  <li>
+                  <Image
+                      src="/images/check.png"
+                      alt="Check Icon"
+                      width={24} // Set the width
+                      height={24} // Set the height
+                      className="list-icon"
+                    />
+                    18+ Years of Industry Expertise</li>
+                  <li>
+                    <Image
+                      src="/images/check.png"
+                      alt="Check Icon"
+                      width={24} // Set the width
+                      height={24} // Set the height
+                      className="list-icon"
+                    />
+                    Diverse Sector Experience</li>
+                  <li>
+                  <Image
+                      src="/images/check.png"
+                      alt="Check Icon"
+                      width={24} // Set the width
+                      height={24} // Set the height
+                      className="list-icon"
+                    />
+                    Client-Centric Approach</li>
+                  <li>
+                  <Image
+                      src="/images/check.png"
+                      alt="Check Icon"
+                      width={24} // Set the width
+                      height={24} // Set the height
+                      className="list-icon"
+                    />
+                    Award-Winning Team</li>
+                  <li>
+                  <Image
+                      src="/images/check.png"
+                      alt="Check Icon"
+                      width={24} // Set the width
+                      height={24} // Set the height
+                      className="list-icon"
+                    />
+                    Commitment to Success</li>
+
+                </ul>
               </div>
               <div className="skill-wrap">
                 <div className="skill-bar-single d-none">

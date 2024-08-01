@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import Link from "next/link";
 import Image from "next/image";
 import { useRouter } from "next/router";
-import logo from "public/images/logo.png";
+import logo from "public/images/logoas.svg";
 import logoLight from "public/images/logo-light.png";
 import Offcanvas from "./Offcanvas";
 
@@ -58,6 +58,7 @@ const HeaderFour = ({ openNav, handleNav, setOpenNav }: HeaderProps) => {
                       <Image src={logoSrc} alt="Image" style={{height : '50px', width: '100px'}} />
                     </Link>
                   </div>
+
                   <div className="navbar__options">
                     <button
                       className="open-offcanvas-nav d-flex"
@@ -67,6 +68,7 @@ const HeaderFour = ({ openNav, handleNav, setOpenNav }: HeaderProps) => {
                     >
                       <i className="fa-light fa-bars-staggered"></i>
                     </button>
+                    
                     <div className="tertiary-cta d-none d-sm-flex">
                       <div className="navbar__mobile-options">
                         <Link href="contact-us" className="btn btn--secondary">
@@ -75,6 +77,17 @@ const HeaderFour = ({ openNav, handleNav, setOpenNav }: HeaderProps) => {
                         </Link>
                       </div>
                     </div>
+
+                    <div className="navbar__options1">
+                    <button 
+                      className="open-offcanvas-nav d-flex"
+                      aria-label="toggle mobile menu"
+                      title="open offcanvas menu"
+                      onClick={handleNav}
+                    ></button>
+                  </div>
+
+
                   </div>
                 </nav>
               </div>
