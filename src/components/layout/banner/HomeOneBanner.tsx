@@ -6,7 +6,7 @@ import { ScrollTrigger } from "gsap/dist/ScrollTrigger";
 // import aniket from "./../../../../public/video/HR.mp4" ;
 import banneronethumb from "public/images/banner/banner-one-thumb.png";
 
-import star from "public/images/star.png";
+import star from "public/images/glowing star.gif";
 import videoframe from "public/images/video-frame.png";
 import YoutubeEmbed from "@/components/youtube/YoutubeEmbed";
 
@@ -61,7 +61,7 @@ const HomeOneBanner = () => {
                     <i className="icon-arrow-top-right"></i> Spearhead Creativity!
                   </span>
                 </h1>
-                <div className="banner__content-inner">
+                {/* <div className="banner__content-inner">
                   <p>
                     We're a dynamic Branding, Marketing, Communications, PR, and Advisory Service Company based in Dubai, UAE.
                   </p>
@@ -70,12 +70,8 @@ const HomeOneBanner = () => {
                       <h5 className="fw-7">18+</h5>
                       <p className="fw-5">years of experience</p>
                     </div>
-                    {/* <div className="single">
-                      <h5 className="fw-7">25k</h5>
-                      <p className="fw-5">completed projects</p>
-                    </div> */}
                   </div>
-                </div>
+                </div> */}
               </div>
             </div>
           </div>
@@ -94,10 +90,10 @@ const HomeOneBanner = () => {
 
 
         <Image src={star} alt="Image" className="star" />
-        <div className="banner-left-text banner-social-text d-none d-md-flex">
+        {/* <div className="banner-left-text banner-social-text d-none d-md-flex">
           <Link href="mailto:ceo@spearheadcreativity.com">mail : ceo@spearheadcreativity.com</Link>
           <Link href="tel:+971 566121551 ">Call : +971 566121551 </Link>
-        </div>
+        </div> */}
         <div className="banner-right-text banner-social-text d-none d-md-flex">
           <Link href="https://www.instagram.com/" target="_blank">
             instagram

@@ -2,14 +2,18 @@ import React, { useEffect } from "react";
 import Image from "next/image";
 import Link from "next/link";
 import blogthumb from "public/images/offer/blog-thumb.png";
-import two from "public/images/offer/two.png";
-import three from "public/images/offer/three.png";
 import star from "public/images/offer/star.png";
 import thumbone from "../../../../public/images/agency/thumb-four.png";
 import str from "public/images/str1.png";
 import str2 from "public/images/str2.png";
 import str3 from "public/images/str3.png";
 import str4 from "public/images/str4.png";
+// import firstimg from "public/images/firstimg.jpg";
+// import fourthimg from "public/images/fourthimg.jpg";
+import one from "public/images/homeoffer/imgOne.jpg"
+import two from "public/images/homeoffer/imgTwo.jpg"
+import three from "public/images/homeoffer/imgThree.jpg"
+import four from "public/images/homeoffer/imgFour.jpg"
 
 const HomeOffer = () => {
   useEffect(() => {
@@ -130,7 +134,7 @@ const HomeOffer = () => {
                   </Link>
                 </h2>
                 <div className="offer-thumb-hover d-none d-md-block">
-                  <Image src={blogthumb} alt="Image" />
+                  <Image src={one} alt="Image" />
                 </div>
               </div>
               <div className="offer__cta-single fade-top">
@@ -175,7 +179,7 @@ const HomeOffer = () => {
                   </Link>
                 </h2>
                 <div className="offer-thumb-hover d-none d-md-block">
-                  <Image src={blogthumb} alt="Image" />
+                  <Image src={four} alt="Image" />
                 </div>
               </div>
             </div>
