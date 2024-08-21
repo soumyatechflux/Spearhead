@@ -48,11 +48,11 @@ const HomeSponsor = () => {
                 }}
                 className="sponsor__slider"
               >
-                <SwiperSlide>
+                {/* <SwiperSlide>
                   <div className="sponsor__slider-item">
                     <Image src={one} alt="Image" />
                   </div>
-                </SwiperSlide>
+                </SwiperSlide> */}
                 <SwiperSlide>
                   <div className="sponsor__slider-item">
                     <Image src={two} alt="Image" />
@@ -78,11 +78,11 @@ const HomeSponsor = () => {
                     <Image src={six} alt="Image" />
                   </div>
                 </SwiperSlide>
-                <SwiperSlide>
+                {/* <SwiperSlide>
                   <div className="sponsor__slider-item">
                     <Image src={one} alt="Image" />
                   </div>
-                </SwiperSlide>
+                </SwiperSlide> */}
                 <SwiperSlide>
                   <div className="sponsor__slider-item">
                     <Image src={two} alt="Image" />

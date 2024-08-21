@@ -49,7 +49,13 @@ const HomeOneBanner = () => {
 
   return (
     <>
-            <section className="banner">
+      <section className="banner">
+      <div className="video-wrapper">
+        <video autoPlay muted loop playsInline>
+          <source src="/video/video.mp4" type="video/mp4" />
+          Your browser does not support the video tag.
+        </video>
+      </div>
         <div className="container">
           <div className="row">
             <div className="col-12">
@@ -82,11 +88,11 @@ const HomeOneBanner = () => {
           className="banner-one-thumb d-none d-sm-block g-ban-one"
         /> */}
          
-          <video autoPlay loop muted controls
-          className="banner-one-thumb d-none d-sm-block g-ban-one"
+          {/* <video autoPlay loop muted controls
+          className="col-12 col-md-12 banner-one-thumb d-none d-sm-block g-ban-one"
           >
-                    <source src="/images/HR.mp4" className="banner-one-thumb" type="video/mp4" />
-          </video>
+            <source src="/video/video.mp4" className="banner-one-thumb" type="video/mp4" />
+          </video> */}
 
 
         <Image src={star} alt="Image" className="star" />
@@ -124,7 +130,7 @@ const HomeOneBanner = () => {
         className={(videoActive ? " video-zoom-in" : " ") + " video-backdrop"}
         onClick={() => setVideoActive(false)}
       >
-        <div className="video-inner">
+        <div className="video-inner" style={{display:'none'}}>
           <div
           // className="video-container"
           // onClick={(e: any) => e.stopPropagation()}

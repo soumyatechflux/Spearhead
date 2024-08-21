@@ -210,21 +210,21 @@ const FooterFive = () => {
             </div>
             <div className="col-12 col-xl-6">
               <ul className="justify-content-center justify-content-xl-end">
-                <li>
+              <li>
                   <Link href="/">Home</Link>
                 </li>
                 <li>
-                  <Link href="about-us">About</Link>
+                  <Link href="about-us">About-Us</Link>
                 </li>
                 <li>
-                  <Link href="our-services">Services</Link>
+                  <Link href="service-single">Services</Link>
                 </li>
                 <li>
-                  <Link href="blog">Blog</Link>
+                <Link href="our-projects">Projects</Link>
                 </li>
                 <li>
-                  <Link href="contact-us">Contact</Link>
-                </li>
+                    <Link href="client-feedback">Testimonials</Link>
+                  </li>
               </ul>
             </div>
           </div>

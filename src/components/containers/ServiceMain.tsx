@@ -9,6 +9,15 @@ import { useNavigate } from 'react-router-dom';
 import thumbone from "../../../public/images/agency/thumb-four.png";
 import thumbone1 from "../../../public/images/agency/thumb-five.png";
 import exampleImage from 'public/images/pexels.png';
+
+import one from "public/images/service/Strategy.png";
+import two from "public/images/service/Branding & Creative.png";
+import three from "public/images/service/Public Relations (PR).png";
+import four from "public/images/service/Content & Digital.png";
+import five from "public/images/service/Marketing.png";
+import seven from "public/images/service/Advisory Service.png";
+import eight from "public/images/service/Hospitality sales representation.png";
+import six from "public/images/service/Event.png";
 // import { useNavigate } from 'react-router-dom';
 
 const ServiceMain = () => {
@@ -286,112 +295,209 @@ const ServiceMain = () => {
         </div>
       </div>
 
-{/* first container */}
+      {/* first container */}
 
       <section className="image">
-      <div className="container1">
-        <div className={`${"section1"} ${"section3"} ${"section23"}`}>
-          <span className="head">01</span>
-            <h3>Ideation Workshops</h3>
-              <p className="zx">Our interactive and collaborative workshops ignite a spark of creativity among your team. Through thought-provoking exercises and techniques, we empower your team members to generate groundbreaking ideas and unique solutions.</p>
-                {/* <button className="round-button" onClick={handleReadMoreClick} > */}
-                <Link
+        <div className="container1">
+          <div className={`${"section1"} ${"section3"} ${"section23"}`}>
+            <span className="head">1</span>
+            <h3>Strategy</h3>
+            <p className="zx">- Brand Value Proposition <br />
+              - Brand Positioning Platforms<br />
+              - Brand Narrative & Content<br />
+              - Brand Creative Concept<br />
+              - Operation Models</p>
+            {/* <button className="round-button" onClick={handleReadMoreClick} > */}
+            {/* <Link
                       href="service-single"
                       className="round-button"
                     >
                      Read more
-                    </Link>
-        </div>
+                    </Link> */}
+          </div>
 
           <div className={`${"section2"} ${"section23"}`}>
-              <Image src={thumbone} alt="Example" className="section-image1" />
+            <Image src={one} alt="Example" className="section-image1" />
           </div>
-      </div>
+        </div>
 
-  {/* second container */}
+        {/* second container */}
 
-      <div className="container1">
-        <div className={`${"section2"}  ${"section23"} ${"section1"}`}>
-            <Image src={thumbone} alt="Example" className="section-image1" />
-         </div>
+        <div className="container1">
+          <div className={`${"section2"}  ${"section23"} ${"section1"}`}>
+            <Image src={two} alt="Example" className="section-image1" />
+          </div>
 
-        <div className={`${"section2"} ${"section3"}`}>
-          <span className="head">02</span>
-              <h3>Creative Strategy Development</h3>
-                <p className="zx"> We work closely with you to devise creative strategies that align with your business objectives and target audience. Our team ensures that your brand stands out and engages customers effectively.</p>
-                  {/* <button className="round-button" >
+          <div className={`${"section2"} ${"section3"}`}>
+            <span className="head">2</span>
+            <h3>Branding & Creative</h3>
+            <p className="zx">- Brand Creation<br />
+              - Brand Identify<br />
+              - Brand Visual Language<br />
+              - Visual Communications<br />
+              - Brand Voice & Key Messages</p>
+            {/* <button className="round-button" >
                     Read more
                   </button>     */}
-                  <Link
+            {/* <Link
                       href="service-single"
                       className="round-button"
                     >
                      Read more
-                    </Link>
+                    </Link> */}
+          </div>
         </div>
-      </div>
 
- {/* third container */}
+        {/* third container */}
+
+        <div className="container1">
+          <div className={`${"section1"} ${"section2"} ${"section3"}`}>
+            <span className="head">3</span>
+            <h3>Public Relations (PR)</h3>
+            <p className="zx">- PR Strategy<br />
+              - Press Releases<br />
+              - Campaign Strategy<br />
+              - Media Relations<br />
+              - Press Kit</p>
+            {/* <Link
+                      href="service-single"
+                      className="round-button"
+                    >
+                     Read more
+                    </Link> */}
+          </div>
+
+          <div className={`${"section2"} ${"section23"}`}>
+            <Image src={three} alt="Example" className="section-image1" />
+          </div>
+        </div>
+
+        {/* fourth container */}
+
+        <div className="container1">
+          <div className={`${"section1"} ${"section2"} ${"section23"}`}>
+            <Image src={four} alt="Example" className="section-image1" />
+          </div>
+
+          <div className={`${"section2"} ${"section3"}`}>
+            <span className="head">4</span>
+            <h3>Content & Digital</h3>
+            <p className="zx">- Cotent Design & Creation<br />
+              - Website Design & Build<br />
+              - Digtal Asset Design<br />
+              - Social Listening<br />
+              -Digital Production<br />
+              - Photography & Videography</p>
+            {/* <Link
+                      href="service-single"
+                      className="round-button"
+                    >
+                     Read more
+                    </Link> */}
+          </div>
+        </div>
+
+        {/* fifth container */}
+
+        <div className="container1">
+          <div className={`${"section1"} ${"section2"} ${"section3"}`}>
+            <span className="head">5</span>
+            <h3>Marketing</h3>
+            <p className="zx">- Sales & Marketing Strategy<br />
+              - Interin Sales & Marketing Management<br />
+              - Communications Strategy<br />
+              - Campaign Conceptualisation & Implemetation</p>
+            {/* <Link
+                      href="service-single"
+                      className="round-button"
+                    >
+                     Read more
+                    </Link> */}
+          </div>
+          <div className={`${"section1"} ${"section2"} ${"section23"}`}>
+            <Image src={five} alt="Example" className="section-image1" />
+          </div>
+        </div>
+
+        {/* 6 */}
+
+
+        <div className="container1">
+          <div className={`${"section1"} ${"section2"} ${"section23"}`}>
+            <Image src={six} alt="Example" className="section-image1" />
+          </div>
+
+          <div className={`${"section2"} ${"section3"}`}>
+            <span className="head">6</span>
+            <h3>Events</h3>
+            <p className="zx">-Activation Strategy<br />
+              -Activation Ideation<br />
+              -Project Management<br />
+              -Programming<br />
+              -Amplification & Implementation<br />
+            </p>
+            {/* <Link
+                      href="service-single"
+                      className="round-button"
+                    >
+                     Read more
+                    </Link> */}
+          </div>
+        </div>
+      </section>
+
+      {/* 7 */}
+
 
       <div className="container1">
         <div className={`${"section1"} ${"section2"} ${"section3"}`}>
-          <span className="head">03</span>
-            <h3>Trend Analysis and Market Research</h3>
-              <p className="zx">Stay ahead of the curve with our comprehensive trend analysis and market research services. We analyze industry trends, consumer behavior, and competitor insights to help you identify opportunities and capture the market.</p>
-              <Link
-                      href="service-single"
-                      className="round-button"
-                    >
-                     Read more
-                    </Link>
+          <span className="head">7</span>
+          <h3>Advisory Service</h3>
+          <p className="zx">-Identifying problems and opportunities<br />
+            - Developing solutions<br />
+            - Providing strategies to improve performance</p>
+          {/* <Link
+            href="service-single"
+            className="round-button"
+          >
+            Read more
+          </Link> */}
         </div>
 
         <div className={`${"section2"} ${"section23"}`}>
-            <Image src={thumbone1} alt="Example" className="section-image1" />
+          <Image src={seven} alt="Example" className="section-image1" />
         </div>
       </div>
 
-{/* fourth container */}
+
+
+      {/* 8 */}
 
       <div className="container1">
         <div className={`${"section1"} ${"section2"} ${"section23"}`}>
-        <Image src={thumbone} alt="Example" className="section-image1" />
+          <Image src={eight} alt="Example" className="section-image1" />
         </div>
 
         <div className={`${"section2"} ${"section3"}`}>
-          <span className="head">04</span>
-              <h3>Innovation Roadmapping (UX DESIGN)</h3>
-                <p className="zx">Our experts assist you in creating a roadmap for innovation, enabling you to implement new ideas seamlessly. We identify potential bottlenecks, devise actionable plans, and provide ongoing support to ensure successful implementation.</p>
-                <Link
-                      href="service-single"
-                      className="round-button"
-                    >
-                     Read more
-                    </Link>
+          <span className="head">8</span>
+          <h3>Hospitality sales representation</h3>
+          <p className="zx">- Identifying potential clients<br />
+            - Developing and maintaining relationships with clients<br />
+            - Promoting and selling products or services<br />
+            - Negotiating deals and contracts<br />
+            - Providing ongoing customer support and service<br />
+            - Managing sales activities and tracking progress<br />
+            towards goals
+            - Attending industry events to network and gather<br />
+            market intelligence</p>
+          {/* <Link
+            href="service-single"
+            className="round-button"
+          >
+            Read more
+          </Link> */}
         </div>
       </div>
-
- {/* fifth container */}
-
-      <div className="container1">
-        <div className={`${"section1"} ${"section2"} ${"section3"}`}>
-          <span className="head">05</span>
-            <h3>Creative Evaluation and Optimization</h3>
-              <p className="zx">We conduct rigorous evaluations of your creative campaigns, identifying areas for improvement and optimization. Through data-driven analysis and feedback, we guide you toward achieving maximum impact and ROI.</p>
-              <Link
-                      href="service-single"
-                      className="round-button"
-                    >
-                     Read more
-                    </Link>
-        </div>
-
-        <div className={`${"section2"} ${"section23"}`}>
-            <Image src={thumbone} alt="Example" className="section-image1" />
-        </div>
-      </div>
-
-      </section>
 
       <div className="slide-group">
         <button aria-label="previous item" className="slide-btn prev-service-t">

@@ -72,7 +72,7 @@ const Offcanvas = ({ openNav, setOpenNav }: HeaderProps) => {
           <div className="offcanvas-menu__header nav-fade">
             <div className="logo">
               <Link href="/">
-                <Image style={{height:"60px", width:"120px"}} src={logo} alt="Image" title="Image" priority />
+                <Image style={{ height: "60px", width: "120px" }} src={logo} alt="Image" title="Image" priority />
               </Link>
             </div>
             <button
@@ -88,19 +88,19 @@ const Offcanvas = ({ openNav, setOpenNav }: HeaderProps) => {
               <ul>
                 <li className="navbar__item navbar__item--has-children nav-fade">
                   <button
-                    //  aria-label="dropdown menu"
-                    // className={`navbar__dropdown-label ${isSubMenuButton(
-                    //   "home"
-                    // )}`}
-                    // onClick={() => handleSubmenu("home")}
+                  //  aria-label="dropdown menu"
+                  // className={`navbar__dropdown-label ${isSubMenuButton(
+                  //   "home"
+                  // )}`}
+                  // onClick={() => handleSubmenu("home")}
                   >
-                  
+
                   </button>
                   {/* <ul className={`navbar__sub-menu ${isSubMenuOpen("home")}`}> */}
-                    {/* <li>
+                  {/* <li>
                       <Link href="/">Creative Agency</Link>
                     </li> */}
-                    {/* <li>
+                  {/* <li>
                       <Link href="index-light">Creative Agency Light</Link>
                     </li>
                     <li>
@@ -150,10 +150,10 @@ const Offcanvas = ({ openNav, setOpenNav }: HeaderProps) => {
                     className={`navbar__sub-menu ${isSubMenuOpen("services")}`}
                   >
                     <li>
-                      <Link href="our-services">Our Services</Link>
+                      <Link href="our-services">Core Capabilities</Link>
                     </li>
                     <li>
-                      <Link href="service-single">Service Details</Link>
+                      <Link href="service-single">Scope of Service</Link>
                     </li>
                   </ul>
                 </li>
@@ -171,7 +171,7 @@ const Offcanvas = ({ openNav, setOpenNav }: HeaderProps) => {
                     className={`navbar__sub-menu ${isSubMenuOpen("projects")}`}
                   >
                     <li>
-                      <Link href="our-projects">Our Projects</Link>
+                      <Link href="our-projects">List Of Projects</Link>
                     </li>
                     <li>
                       <Link href="project-single">Project Details</Link>
@@ -190,18 +190,18 @@ const Offcanvas = ({ openNav, setOpenNav }: HeaderProps) => {
                   </button>
                   <ul className={`navbar__sub-menu ${isSubMenuOpen("pages")}`}>
                     <li>
-                      <Link href="faq">FAQ</Link>
+                      <Link href="#">Spearhead Creativity Advisory Service</Link>
                     </li>
                     <li>
-                      <Link href="404">Error</Link>
+                      <Link href="#">Moneymind Investment</Link>
                     </li>
                     <li>
-                      <Link href="our-story">Our Journey</Link>
+                      <Link href="#">Sakal Family Office</Link>
                     </li>
                     <li>
-                      <Link href="portfolio">Portfolio</Link>
+                      <Link href="#">Training & Development</Link>
                     </li>
-                    <li className="navbar__item navbar__item--has-children">
+                    {/* <li className="navbar__item navbar__item--has-children">
                       <button
                         aria-label="dropdown menu"
                         className={`navbar__dropdown-label navbar__dropdown-label-sub ${isNestedMenuButton(
@@ -223,33 +223,25 @@ const Offcanvas = ({ openNav, setOpenNav }: HeaderProps) => {
                           <Link href="team-single">Team Details</Link>
                         </li>
                       </ul>
-                    </li>
-                    <li>
+                    </li> */}
+                    {/* <li>
                       <Link href="client-feedback">Testimonials</Link>
-                    </li>
+                    </li> */}
                     <li>
                       <Link href="contact-us">Contact Us</Link>
                     </li>
                   </ul>
                 </li>
-                <li className="navbar__item navbar__item--has-children nav-fade">
-                  <button
-                    aria-label="dropdown menu"
-                    className={`navbar__dropdown-label__dropdown-label-sub ${isSubMenuButton(
-                      "blog"
-                    )}`}
-                    onClick={() => handleSubmenu("blog")}
-                  >
-                    Blog
-                  </button>
-                  <ul className={`navbar__sub-menu ${isSubMenuOpen("blog")}`}>
+                <li className="navbar__item nav-fade">
+                  <Link href="client-feedback" className="ADS" >Testimonials</Link>
+                  {/* <ul className={`navbar__sub-menu ${isSubMenuOpen("blog")}`}>
                     <li>
                       <Link href="blog">Blog</Link>
                     </li>
                     <li>
                       <Link href="blog-single">Blog Details</Link>
                     </li>
-                  </ul>
+                  </ul> */}
                 </li>
               </ul>
             </div>
@@ -262,7 +254,7 @@ const Offcanvas = ({ openNav, setOpenNav }: HeaderProps) => {
             </div>
           </div>
 
-          
+
           <div className="offcanvas-menu__social social nav-fade">
             <Link
               href="https://www.facebook.com/"

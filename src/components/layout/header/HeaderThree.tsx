@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import Link from "next/link";
 import Image from "next/image";
-import logo from "public/images/logoas.svg";
+import logo from "public/images/white-logo.png";
 import Offcanvas from "./Offcanvas";
 
 interface HeaderProps {
@@ -46,7 +46,7 @@ const HeaderThree = ({ openNav, handleNav, setOpenNav }: HeaderProps) => {
                 <nav className="navbar p-0">
                   <div className="navbar__logo">
                   <Link href="/" aria-label="go to home">
-                      <Image src={logo} priority alt="Image" style={{height : '100px', width: '100px', background:"white", borderRadius:"50%"}} />
+                      <Image src={logo} priority alt="Image" style={{height : '100px', width: '100px', borderRadius:"50%"}} />
                     </Link>
                   </div>
                   <div className="navbar__menu">

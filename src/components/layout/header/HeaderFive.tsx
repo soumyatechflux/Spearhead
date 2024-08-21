@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import Link from "next/link";
 import Image from "next/image";
 import { useRouter } from "next/router";
-import logo from "public/images/logoas.svg";
+import logo from "public/images/white-logo.png";
 import logoLight from "public/images/logo-light.png";
 import Offcanvas from "./Offcanvas";
 
@@ -42,7 +42,7 @@ const HeaderFive = ({ openNav, handleNav, setOpenNav }: HeaderProps) => {
 
   const router = useRouter();
   if (router.pathname === "/index-five-light") {
-    logoSrc = logoLight;
+    logoSrc = logo;
   }
 
   return (
@@ -134,7 +134,7 @@ const HeaderFive = ({ openNav, handleNav, setOpenNav }: HeaderProps) => {
                         </button>
                         <ul className="navbar__sub-menu">
                           <li>
-                            <Link href="our-projects">Our Projects</Link>
+                            <Link href="our-projects">List Of Projects</Link>
                           </li>
                           <li>
                             <Link href="project-single">Project Details</Link>

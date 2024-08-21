@@ -2,8 +2,8 @@ import React, { useState, useEffect } from "react";
 import { useRouter } from "next/router";
 import Image from "next/image";
 import Link from "next/link";
-import logo from "public/images/logoas.svg";
-import logoLight from "public/images/logo-light.png";
+import logo from "public/images/white-logo2.png";
+// import logoLight from "public/images/logo-light.png";
 import Offcanvas from "./Offcanvas";
 
 interface HeaderProps {
@@ -43,7 +43,7 @@ const Header = ({ openNav, handleNav, setOpenNav }: HeaderProps) => {
 
   const router = useRouter();
   if (router.pathname === "/index-light") {
-    logoSrc = logoLight;
+    logoSrc = logo;
   }
 
 
@@ -83,7 +83,7 @@ const Header = ({ openNav, handleNav, setOpenNav }: HeaderProps) => {
                 <nav className="navbar p-0">
                   <div className="navbar__logo">
                     <Link href="/" aria-label="go to home">
-                      <Image src={logoSrc} priority alt="Image" style={{height : '100px', width: '100px', background:"white", borderRadius:"50%"}} />
+                      <Image src={logoSrc} priority alt="Image" style={{height : '85px', background:"", borderRadius:"50%"}} />
                     </Link>
                   </div>
                   <div className="navbar__menu">
@@ -154,10 +154,10 @@ const Header = ({ openNav, handleNav, setOpenNav }: HeaderProps) => {
                         </button>
                         <ul className="navbar__sub-menu">
                           <li>
-                            <Link href="our-services">Our Services</Link>
+                            <Link href="our-services">Core Capabilities</Link>
                           </li>
                           <li>
-                            <Link href="service-single">Service Details</Link>
+                            <Link href="service-single">Scope Of Service</Link>
                           </li>
                         </ul>
                       </li>
@@ -171,7 +171,7 @@ const Header = ({ openNav, handleNav, setOpenNav }: HeaderProps) => {
                         </button>
                         <ul className="navbar__sub-menu">
                           <li>
-                            <Link href="our-projects">Our Projects</Link>
+                            <Link href="our-projects">List of Projects</Link>
                           </li>
                           <li>
                             <Link href="project-single">Project Details</Link>
@@ -215,30 +215,25 @@ const Header = ({ openNav, handleNav, setOpenNav }: HeaderProps) => {
                               </li>
                             </ul>
                           </li>
-                          <li>
+                          {/* <li>
                             <Link href="client-feedback">Testimonials</Link>
-                          </li>
+                          </li> */}
                           <li>
                             <Link href="contact-us">Contact Us</Link>
                           </li>
                         </ul>
                       </li>
-                      <li className="navbar__item navbar__item--has-children nav-fade">
-                        <button
-                          aria-label="dropdown menu"
-                          className="navbar__dropdown-label"
-                          // style={{color: "white"}}
-                        >
-                          Blog
-                        </button>
-                        <ul className="navbar__sub-menu">
+                      <li className="navbar__item nav-fade">
+                        <Link href="client-feedback" className ="ADS" >Testimonials</Link>
+                      
+                        {/* <ul className="navbar__sub-menu">
                           <li>
                             <Link href="blog">Blog</Link>
                           </li>
                           <li>
                             <Link href="blog-single">Blog Details</Link>
                           </li>
-                        </ul>
+                        </ul> */}
                       </li>
                     </ul>
                   </div>

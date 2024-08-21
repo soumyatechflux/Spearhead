@@ -2,7 +2,8 @@ import React, { useEffect, useState } from "react";
 import Link from "next/link";
 import Image from "next/image";
 import { useRouter } from "next/router";
-import logo from "public/images/logoas.svg";
+// import logo from "public/images/white-logo.png";
+import logo from "public/images/white-logo2.png";
 import logoLight from "public/images/logo-light.png";
 import Offcanvas from "./Offcanvas";
 
@@ -42,7 +43,7 @@ const HeaderTwo = ({ openNav, handleNav, setOpenNav }: HeaderProps) => {
 
   const router = useRouter();
   if (router.pathname === "/index-two-light") {
-    logoSrc = logoLight;
+    logoSrc = logo;
   }
 
   return (
@@ -51,13 +52,16 @@ const HeaderTwo = ({ openNav, handleNav, setOpenNav }: HeaderProps) => {
         <div className={combinedClasses}>
           <div className="container">
             <div className="row">
-              <div className="col-12">
+              {/* <div className="col-12"> */}
                 <nav className="navbar p-0">
+                  <div className="col-md-4 col-3">
                   <div className="navbar__logo">
-                  <Link href="/" aria-label="go to home">
-                      <Image src={logoSrc} priority alt="Image" style={{height : '100px', width: '100px', background:"white", borderRadius:"50%"}} />
-                    </Link>
+                    <Link href="/" aria-label="go to home">
+                        <Image className="home-two-logo" src={logoSrc} priority alt="Image"/>
+                      </Link>
                   </div>
+                  </div>
+                 
                   <div className="navbar__menu">
                     <ul>
                       <li className="navbar__item navbar__item--has-children nav-fade">
@@ -124,10 +128,10 @@ const HeaderTwo = ({ openNav, handleNav, setOpenNav }: HeaderProps) => {
                         </button>
                         <ul className="navbar__sub-menu">
                           <li>
-                            <Link href="our-services">Our Services</Link>
+                            <Link href="our-services">Core Capabilities</Link>
                           </li>
                           <li>
-                            <Link href="service-single">Service Details</Link>
+                            <Link href="service-single">Scope Of  Service</Link>
                           </li>
                         </ul>
                       </li>
@@ -140,7 +144,7 @@ const HeaderTwo = ({ openNav, handleNav, setOpenNav }: HeaderProps) => {
                         </button>
                         <ul className="navbar__sub-menu">
                           <li>
-                            <Link href="our-projects">Our Projects</Link>
+                            <Link href="our-projects">List of Projects</Link>
                           </li>
                           <li>
                             <Link href="project-single">Project Details</Link>
@@ -155,7 +159,20 @@ const HeaderTwo = ({ openNav, handleNav, setOpenNav }: HeaderProps) => {
                           More
                         </button>
                         <ul className="navbar__sub-menu">
+
                           <li>
+                            <Link href="#">Spearhead Creativity Advisory Service</Link>
+                          </li>
+                          <li>
+                            <Link href="#">Moneymind Investment</Link>
+                          </li>
+                          <li>
+                            <Link href="#">Sakal Family Office</Link>
+                          </li>
+                          <li>
+                            <Link href="#">Training & Development</Link>
+                          </li>
+                          {/* <li>
                             <Link href="faq">FAQ</Link>
                           </li>
                           <li>
@@ -183,34 +200,27 @@ const HeaderTwo = ({ openNav, handleNav, setOpenNav }: HeaderProps) => {
                               </li>
                             </ul>
                           </li>
-                          <li>
-                            <Link href="client-feedback">Testimonials</Link>
-                          </li>
+                          
                           <li>
                             <Link href="contact-us">Contact Us</Link>
-                          </li>
+                          </li> */}
                         </ul>
                       </li>
-                      <li className="navbar__item navbar__item--has-children nav-fade">
-                        <button
-                          aria-label="dropdown menu"
-                          className="navbar__dropdown-label"
-                        >
-                          Blog
-                        </button>
-                        <ul className="navbar__sub-menu">
-                          <li>
-                            <Link href="blog">Blog</Link>
+                      <li className="navbar__item nav-fade">
+                        <Link href="client-feedback" className ="ADS" >Testimonials</Link>
+                        {/* <ul className="navbar__sub-menu">
+                        <li>
+                            <Link href="client-feedback">Testimonials</Link>
                           </li>
                           <li>
                             <Link href="blog-single">Blog Details</Link>
                           </li>
-                        </ul>
+                        </ul> */}
                       </li>
                     </ul>
                   </div>
                   <div className="navbar__options">
-                    <div className="navbar__mobile-options d-none d-sm-flex">
+                    <div className="navbar__mobile-options d-sm-flex d-flex">
                       <Link href="contact-us" className="btn btn--secondary">
                         Let&apos;s Talk
                       </Link>
@@ -234,7 +244,7 @@ const HeaderTwo = ({ openNav, handleNav, setOpenNav }: HeaderProps) => {
                     </button>
                   </div>
                 </nav>
-              </div>
+              {/* </div> */}
             </div>
           </div>
         </div>

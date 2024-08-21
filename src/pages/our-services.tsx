@@ -8,17 +8,24 @@ import HomeTestimonialThree from "@/components/containers/home-three/HomeTestimo
 import CtaTwo from "@/components/containers/service-details/CtaTwo";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom" 
 import ServiceDetailsMain from "@/components/containers/service-details/ServiceDetailsMain";
+import Footer from "@/components/layout/footer/Footer";
+import HomeCapabilities from "@/components/containers/home/HomeCapabilities";
+import ServiceDetailsBanner from "@/components/layout/banner/ServiceDetailsBanner";
+import ServiceCoreCapabilitiesBanner from "@/components/layout/banner/ServiceCoreCapabilitiesBanner";
 // import Home from './components/Home';
 
 const OurServices = () => {
   return (
-    <Layout header={2} footer={5} video={0}>
-      <CmnBanner title="Our Services" navigation="Our Services" />
-      <ServiceMain />
-      <HomeTwoModal />
+    <Layout header={2} video={0}>
+      {/* <CmnBanner title="Core Capabilities" navigation="Core Capabilities" /> */}
+      <ServiceCoreCapabilitiesBanner/>
+      <HomeCapabilities/>
+      <Footer/>
+      {/* <ServiceMain /> */}
+      {/* <HomeTwoModal />
       <UxProcessTwo />
       <HomeTestimonialThree />
-      <CtaTwo />
+      <CtaTwo /> */}
     </Layout>
     
   );

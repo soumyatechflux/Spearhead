@@ -4,7 +4,7 @@
 
 //  banner one
 .banner {
-  padding: 300px 0px 130px;
+  padding: 260px 0px 130px;
   background-color: var(--black);
   position: relative;
   z-index: 1;
@@ -59,9 +59,9 @@
     transform: translateX(-50%);
     z-index: -1;
     width: 100%;
-    max-width: 494px;
-    height: 500px;
-    border-radius: 100%;
+    // max-width: 494px;
+    // height: 500px;
+    // border-radius: 100%;
   }
 
   .star {

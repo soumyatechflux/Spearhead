@@ -284,7 +284,8 @@ const HomeTestimonialThree = () => {
       </div>
       <div className="other-section">
         <Image
-          className="other-section-image"
+          className="other-section-image "
+          style={{display:'none'}}
           src={
             nextSlideIndex === 0
               ? sthumb

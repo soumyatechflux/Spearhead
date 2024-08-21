@@ -45,197 +45,105 @@ const ProjectMain = () => {
   return (
     <section className="section project-sl" ref={slider}>
       <div className="project-sl__single">
+        
+        <div className="content">
+          <h2>
+            <Link href="project-single">
+              Branding
+              <br />
+              development
+            </Link>
+          </h2>
+        </div>
         <div className="thumb">
           <Link href="project-single">
             <Image src={hrone} alt="Image" />
           </Link>
         </div>
+      </div>
+
+      <div className="project-sl__single">
+        
         <div className="content">
           <h2>
             <Link href="project-single">
-              mobile app
+              Social
               <br />
-              development
+              Media
             </Link>
           </h2>
         </div>
-      </div>
-      <div className="project-sl__single">
         <div className="thumb">
           <Link href="project-single">
             <Image src={hrtwo} alt="Image" />
           </Link>
         </div>
+      </div>
+
+      <div className="project-sl__single">
+       
         <div className="content">
           <h2>
             <Link href="project-single">
-              brand identity
-              <br />
-              difference
+              marketing 
             </Link>
           </h2>
         </div>
-      </div>
-      <div className="project-sl__single">
         <div className="thumb">
           <Link href="project-single">
             <Image src={hrthree} alt="Image" />
           </Link>
         </div>
+      </div>
+
+      <div className="project-sl__single">
+        
         <div className="content">
           <h2>
             <Link href="project-single">
-              marketing app
-              <br />
-              solutions
+              Strategy
             </Link>
           </h2>
         </div>
-      </div>
-      <div className="project-sl__single">
         <div className="thumb">
           <Link href="project-single">
             <Image src={hrfour} alt="Image" />
           </Link>
         </div>
+      </div>
+
+      <div className="project-sl__single">
+       
         <div className="content">
           <h2>
             <Link href="project-single">
-              LMS web app
-              <br />
-              lication
+              Blog
             </Link>
           </h2>
         </div>
-      </div>
-      <div className="project-sl__single">
         <div className="thumb">
           <Link href="project-single">
             <Image src={hrfive} alt="Image" />
           </Link>
         </div>
+      </div>
+
+      <div className="project-sl__single">
+        
         <div className="content">
           <h2>
             <Link href="project-single">
-              brand identity
-              <br />
-              difference
+             Events
             </Link>
           </h2>
         </div>
-      </div>
-      <div className="project-sl__single">
         <div className="thumb">
           <Link href="project-single">
             <Image src={hrsix} alt="Image" />
           </Link>
         </div>
-        <div className="content">
-          <h2>
-            <Link href="project-single">
-              digital website
-              <br />
-              development
-            </Link>
-          </h2>
-        </div>
       </div>
-      <div className="project-sl__single">
-        <div className="thumb">
-          <Link href="project-single">
-            <Image src={hrone} alt="Image" />
-          </Link>
-        </div>
-        <div className="content">
-          <h2>
-            <Link href="project-single">
-              mobile app
-              <br />
-              development
-            </Link>
-          </h2>
-        </div>
-      </div>
-      <div className="project-sl__single">
-        <div className="thumb">
-          <Link href="project-single">
-            <Image src={hrtwo} alt="Image" />
-          </Link>
-        </div>
-        <div className="content">
-          <h2>
-            <Link href="project-single">
-              brand identity
-              <br />
-              difference
-            </Link>
-          </h2>
-        </div>
-      </div>
-      <div className="project-sl__single">
-        <div className="thumb">
-          <Link href="project-single">
-            <Image src={hrthree} alt="Image" />
-          </Link>
-        </div>
-        <div className="content">
-          <h2>
-            <Link href="project-single">
-              marketing app
-              <br />
-              solutions
-            </Link>
-          </h2>
-        </div>
-      </div>
-      <div className="project-sl__single">
-        <div className="thumb">
-          <Link href="project-single">
-            <Image src={hrfour} alt="Image" />
-          </Link>
-        </div>
-        <div className="content">
-          <h2>
-            <Link href="project-single">
-              LMS web app
-              <br />
-              lication
-            </Link>
-          </h2>
-        </div>
-      </div>
-      <div className="project-sl__single">
-        <div className="thumb">
-          <Link href="project-single">
-            <Image src={hrfive} alt="Image" />
-          </Link>
-        </div>
-        <div className="content">
-          <h2>
-            <Link href="project-single">
-              brand identity
-              <br />
-              difference
-            </Link>
-          </h2>
-        </div>
-      </div>
-      <div className="project-sl__single">
-        <div className="thumb">
-          <Link href="project-single">
-            <Image src={hrsix} alt="Image" />
-          </Link>
-        </div>
-        <div className="content">
-          <h2>
-            <Link href="project-single">
-              digital website
-              <br />
-              development
-            </Link>
-          </h2>
-        </div>
-      </div>
+
     </section>
   );
 };
