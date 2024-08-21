@@ -50,11 +50,11 @@ const HeaderTwo = ({ openNav, handleNav, setOpenNav }: HeaderProps) => {
     <>
       <header className="header">
         <div className={combinedClasses}>
-          <div className="container">
+          <div className="container-fluid">
             <div className="row">
               {/* <div className="col-12"> */}
                 <nav className="navbar p-0">
-                  <div className="col-md-4 col-3">
+                  <div className="col-md-3 col-3">
                   <div className="navbar__logo">
                     <Link href="/" aria-label="go to home">
                         <Image className="home-two-logo" src={logoSrc} priority alt="Image"/>
