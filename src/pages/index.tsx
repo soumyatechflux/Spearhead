@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect, useRef, useState } from "react";
 import Layout from "@/components/layout/Layout";
 import HomeOneBanner from "@/components/layout/banner/HomeOneBanner";
 import Agency from "@/components/containers/home/Agency";
@@ -15,6 +15,32 @@ import CountriesTime from "@/components/containers/home/CountriesTime";
 import CounterSection from "@/components/containers/home/CounterSection";
 
 const Home = () => {
+  const counterRef = useRef(null);
+  const [isCounterVisible, setIsCounterVisible] = useState(false);
+
+  useEffect(() => {
+    const observer = new IntersectionObserver(
+      (entries) => {
+        const entry = entries[0];
+        if (entry.isIntersecting) {
+          setIsCounterVisible(true);
+          observer.disconnect(); // Stop observing after it's visible
+        }
+      },
+      { threshold: 0.1 } // Trigger when 10% of the component is visible
+    );
+
+    if (counterRef.current) {
+      observer.observe(counterRef.current);
+    }
+
+    return () => {
+      if (counterRef.current) {
+        observer.unobserve(counterRef.current);
+      }
+    };
+  }, []);
+
   return (
     <Layout header={2} footer={1} video={true}>
       <HomeOneBanner />
@@ -27,7 +53,9 @@ const Home = () => {
       <HomeTestimonial />
       {/* <HomeBlog /> */}
       <HomeSponsor />
-      <CounterSection/>
+      <div ref={counterRef}>
+        {isCounterVisible && <CounterSection />}
+      </div>
       {/* <CountriesTime /> */}
       {/* <NextPage /> */}
     </Layout>
