@@ -107,7 +107,7 @@ const HomeApproch = () => {
   };
 
   return (
-    <section className="section offer fade-wrapper light">
+    <section className=" offer fade-wrapper light">
       <div className="container">
         <div className="row gaper align-items-center">
           <div className="col-12 col-lg-6">
@@ -119,19 +119,21 @@ const HomeApproch = () => {
                   text="Spearhead Creativity delivers truly holistic solutions for growing businesses and large corporations looking to refresh or rejuvenate their communications strategy. Our dedicated consultancy, creative and branding studio work together to amplify our clients’ strengths, identify and ameliorate weaknesses as well as broaden brand horizons with the single aim of creating meaningful value."
 
                 /> */}
-                <ReadMore
-                  text={`Spearhead Creativity delivers truly holistic solutions for growing businesses and large corporations looking to refresh or rejuvenate their communications strategy.Our dedicated consultancy, creative and branding studio work together to amplify our clients’ strengths, identify and ameliorate weaknesses as well as broaden brand horizons with the single aim of creating meaningful value.
+
+            
+                  <ReadMore 
+                    text={`Spearhead Creativity delivers truly holistic solutions for growing businesses and large corporations looking to refresh or rejuvenate their communications strategy.Our dedicated consultancy, creative and branding studio work together to amplify our clients’ strengths, identify and ameliorate weaknesses as well as broaden brand horizons with the single aim of creating meaningful value.
+                    
+                  We bring our strategy and your brand to life through content driven creative solutions.Output: visual identity, visual language, collateral design, communication touchpoints.
+
+                  Collaborating with clients for in-market implementation is a critical component of our offering. It represents the moment of truth for the strength of our strategy and the compelling nature of our creativity.
                   
-                We bring our strategy and your brand to life through content driven creative solutions.Output: visual identity, visual language, collateral design, communication touchpoints.
+                  Output: ready to use artwork for print, digital, advertisement,media, operational, internal/ external comms, promotional purpoes and events; messaging roll-out, cross-platform campaigns.
+                  
+                  Our core competency is the art of planning and directing overall corporate marketing, sales,branding and communication strategies to build and sustain brand equity..`}
 
-                Collaborating with clients for in-market implementation is a critical component of our offering. It represents the moment of truth for the strength of our strategy and the compelling nature of our creativity.
-                
-                Output: ready to use artwork for print, digital, advertisement,media, operational, internal/ external comms, promotional purpoes and events; messaging roll-out, cross-platform campaigns.
-                
-                Our core competency is the art of planning and directing overall corporate marketing, sales,branding and communication strategies to build and sustain brand equity..`}
-
-                />
-
+                  />
+             
                
 
               </div>
@@ -141,6 +143,7 @@ const HomeApproch = () => {
           <div className="col-12 col-lg-6 approch-right-side">
             <div className="agency__thumb">
               <Image
+              style={{padding:'10px'}}
                 src={approch}
                 alt="Image"
                 className="approch-img"

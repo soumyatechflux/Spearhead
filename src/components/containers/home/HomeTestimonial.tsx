@@ -158,7 +158,8 @@ const HomeTestimonial = () => {
                             <i className="fa-solid fa-quote-right"></i>
                           </div>
                           <div className="content">
-                            <h5 className="testimonial-info">
+                            {/* <h5 className="testimonial-info"> */}
+                            <h5 className="summary">
                             Paul Williams is an outstanding brand strategist and media specialist. 
                             Our collaboration on various hotel projects showcased his exceptional dedication, creativity, and strategic insight. 
                             His professionalism and commitment to excellence are commendable traits that greatly contributed to our success. 
@@ -166,7 +167,7 @@ const HomeTestimonial = () => {
                             </h5>
                           </div>
                           <div className="content-cta">
-                            <h5>Khaled Amer</h5>
+                            <h5 style={{fontWeight:'bold'}}>Khaled Amer</h5>
                             <p>Vice President</p>
                           </div>
                         </div>
@@ -201,7 +202,8 @@ const HomeTestimonial = () => {
                             <i className="fa-solid fa-quote-right"></i>
                           </div>
                           <div className="content">
-                            <h5 className="testimonial-info">
+                            {/* <h5 className="testimonial-info"> */}
+                            <h5 className="summary">
                             I've had the pleasure of collaborating with Paul and and his company, on a few projects, and I can attest to his exceptional work ethics and unwavering commitment to delivering top-quality services.
                             His strategic approach to catering to his customers vision and tailor the offers to their requirements sets a benchmark for professionalism and high-standards in the industry.
                             Paul's consistency and transparent communication showcases a genuine passion for achieving excellence
@@ -210,7 +212,7 @@ const HomeTestimonial = () => {
                             </h5>
                           </div>
                           <div className="content-cta">
-                            <h5>Soumaia Amane</h5>
+                            <h5 style={{fontWeight:'bold'}}>Soumaia Amane</h5>
                             <p>Sr. Indutrial Engineer</p>
                           </div>
                         </div>
@@ -245,7 +247,7 @@ const HomeTestimonial = () => {
                             <i className="fa-solid fa-quote-right"></i>
                           </div>
                           <div className="content">
-                            <h5 className="testimonial-info" >
+                            <h5 className="summary" >
                             Paul Williams has phenomenal local Media Management and PR experience, is very well connected and is a one of the best networkers that I have seen.
                             His company, Spearhead Creativity, manages my company's Public Relations and marketing. 
                             Paul and his team were able to secure excellent coverage with leading publications to develop my personal branding, as well as our company branding for Linen Obsession. 
@@ -254,7 +256,7 @@ const HomeTestimonial = () => {
                             </h5>
                           </div>
                           <div className="content-cta">
-                            <h5> Pamela </h5>
+                            <h5 style={{fontWeight:'bold'}}> Pamela </h5>
                             <p>CEO</p>
                           </div>
                         </div>

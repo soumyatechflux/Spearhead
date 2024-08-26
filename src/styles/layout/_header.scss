@@ -6,16 +6,29 @@
 .ADS {
   color: white;
   font-weight: bold;
-  padding-right: 10px;
+  // padding-right: 10px;
   // transform: to-upper-case($string: "");
   text-transform: uppercase;
+  font-family: raleway;
 }
 
 .ADS:hover {
   color: #ff7425;
 
 }
-
+.active-tab{
+  color: #ff7425 !important;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-family: raleway;
+  font-size: 16px;
+}
+.sub-active-tab{
+  color: #ff7425 !important;
+}
+.active-tab button a .ADS{
+  color: #ff7425 !important;
+}
 .primary-navbar {
   position: fixed;
   top: 0px;
@@ -50,7 +63,7 @@
   .navbar__item {
     button,a
     a {
-      padding: 41px 20px;
+      padding: 40px 15px;
       text-transform: uppercase;
       font-weight: 1000;
       width: 100%;
@@ -110,7 +123,7 @@
     pointer-events: none;
     transition: var(--transition);
     box-shadow: var(--shadow);
-    padding: 20px 0px;
+    // padding: 20px 0px;
     border-radius: 5px;
     z-index: 9;
     &::before {
@@ -223,9 +236,9 @@
 
 .navbar-active {
   background-color: var(--black);
-  animation: stickyNavbar 0.9s ease-in-out;
+  animation: stickyNavbar 0.3 ease-in-out;
   box-shadow: var(--shadow);
-  border-bottom: 1px solid #414141;
+  // border-bottom: 1px solid #414141;
 }
 // header.header {
 //   margin-bottom: -75px;
@@ -408,7 +421,7 @@
       a,
       button {
         color: var(--white);
-        padding: 16px 20px;
+        padding: 10px 20px;
         font-size: 16px;
         &::before {
           content: none;
@@ -583,10 +596,25 @@
 }
 
 @media (max-width:'768px'){
-  .home-two-logo{
-     width: 300px; 
+  
+    .home-two-logo {
+      width: 300px;
+      position: absolute;
+      left: -45px;
   }
 }
+@media(max-width:340px){
+  
+    .home-two-logo {
+        width: 190px !important;
+        position: absolute !important;
+        left: -36px !important;
+    }
+    .primary-navbar .navbar {
+      gap: 1px !important;
+  }
+}
+
 /* ==== 
  --------- (4.01) header styles end ---------
  ==== */

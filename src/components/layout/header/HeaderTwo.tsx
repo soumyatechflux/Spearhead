@@ -46,6 +46,13 @@ const HeaderTwo = ({ openNav, handleNav, setOpenNav }: HeaderProps) => {
     logoSrc = logo;
   }
 
+   const isActive = (path: string | string[]) => {
+    const currentPath = router.pathname;
+    return Array.isArray(path)
+      ? path.some(p => currentPath.startsWith(p)) // Check if currentPath starts with any of the given paths
+      : currentPath === path;
+  };
+
   return (
     <>
       <header className="header">
@@ -54,7 +61,7 @@ const HeaderTwo = ({ openNav, handleNav, setOpenNav }: HeaderProps) => {
             <div className="row">
               {/* <div className="col-12"> */}
                 <nav className="navbar p-0">
-                  <div className="col-md-3 col-3">
+                  <div className="col-md-4 col-3">
                   <div className="navbar__logo">
                     <Link href="/" aria-label="go to home">
                         <Image className="home-two-logo" src={logoSrc} priority alt="Image"/>
@@ -62,14 +69,16 @@ const HeaderTwo = ({ openNav, handleNav, setOpenNav }: HeaderProps) => {
                   </div>
                   </div>
                  
-                  <div className="navbar__menu">
+                  <div className="navbar__menu col-md-4">
                     <ul>
-                      <li className="navbar__item navbar__item--has-children nav-fade">
+                    <li className="navbar__item navbar__item--has-children nav-fade">
+                      {/* <li className="navbar__item navbar__item--has-children nav-fade "> */}
                         <button
                           // aria-label="dropdown menu"
                           // className="navbar__dropdown-label"
                         >
-                          <Link href="/" className ="ADS" >Home</Link>
+                          {/* <Link href="/" className ="ADS active-tab" >Home</Link> */}
+                          <Link href="/" className={`ADS${isActive("/") ? " active-tab" : ""}`} >Home</Link>
                         </button>
                         
                         <ul >
@@ -116,61 +125,71 @@ const HeaderTwo = ({ openNav, handleNav, setOpenNav }: HeaderProps) => {
                           </li> */}
                         </ul>
                       </li>
-                      <li className="navbar__item nav-fade">
-                        <Link href="about-us" className ="ADS" >About Us</Link>
+                      {/* <li className="navbar__item nav-fade ADS"> */}
+                      <li className="navbar__item nav-fade ADS">
+                        <button>
+                            <Link href="about-us" className={`ADS${isActive("/about-us") ? " active-tab" : ""}`} >
+                              {/* <span className ="ADS" style={{marginTop:'0px'}}>
+                                <span className ="ADS" style={{paddingRight:'5px',marginTop:'0px'}}>About</span>
+                                  Us
+                              </span> */}
+                              About<span></span>Us
+                            </Link>
+                          </button>
                       </li>
                       <li className="navbar__item navbar__item--has-children nav-fade">
                         <button
                           aria-label="dropdown menu"
-                          className="navbar__dropdown-label"
+                          // className="navbar__dropdown-label"
+                           className={`navbar__dropdown-label${isActive(["/our-services", "/service-single"]) ? " active-tab" : ""}`}
                         >
                           Services
                         </button>
                         <ul className="navbar__sub-menu">
                           <li>
-                            <Link href="our-services">Core Capabilities</Link>
+                            <Link href="our-services" className={`${isActive("/our-services") ? "  sub-active-tab" : ""}`}>Core Capabilities</Link>
                           </li>
                           <li>
-                            <Link href="service-single">Scope Of  Service</Link>
+                            <Link href="service-single" className={`${isActive("/service-single") ? "  sub-active-tab" : ""}`}>Scope Of  Service</Link>
                           </li>
                         </ul>
                       </li>
                       <li className="navbar__item navbar__item--has-children nav-fade">
                         <button
                           aria-label="dropdown menu"
-                          className="navbar__dropdown-label"
+                          className={`navbar__dropdown-label${isActive(["/our-projects", "/project-single"]) ? " active-tab" : ""}`}
                         >
                           Projects
                         </button>
                         <ul className="navbar__sub-menu">
                           <li>
-                            <Link href="our-projects">List of Projects</Link>
+                            <Link href="our-projects" className={`${isActive("/our-projects") ? "  sub-active-tab" : ""}`}>List of Projects</Link>
                           </li>
                           <li>
-                            <Link href="project-single">Project Details</Link>
+                            <Link href="project-single" className={`${isActive("/project-single") ? "  sub-active-tab" : ""}`}>Project Details</Link>
                           </li>
                         </ul>
                       </li>
                       <li className="navbar__item navbar__item--has-children nav-fade">
                         <button
                           aria-label="dropdown menu"
-                          className="navbar__dropdown-label"
+                          className={`navbar__dropdown-label${isActive(["/more-advisaory", "/monymind-investment","/sakal-family-office","/training-and-development"]) ? " active-tab" : ""}`}
                         >
                           More
                         </button>
                         <ul className="navbar__sub-menu">
 
                           <li>
-                            <Link href="#">Spearhead Creativity Advisory Service</Link>
+                            <Link href="more-advisaory"  className={`${isActive("/more-advisaory") ? " sub-active-tab" : ""}`}>Spearhead Creativity Advisory Service</Link>
                           </li>
                           <li>
-                            <Link href="#">Moneymind Investment</Link>
+                            <Link href="monymind-investment">Moneymind Investment</Link>
                           </li>
                           <li>
-                            <Link href="#">Sakal Family Office</Link>
+                            <Link href="sakal-family-office">Sakal Family Office</Link>
                           </li>
                           <li>
-                            <Link href="#">Training & Development</Link>
+                            <Link href="training-and-development">Training & Development</Link>
                           </li>
                           {/* <li>
                             <Link href="faq">FAQ</Link>
@@ -207,20 +226,22 @@ const HeaderTwo = ({ openNav, handleNav, setOpenNav }: HeaderProps) => {
                         </ul>
                       </li>
                       <li className="navbar__item nav-fade">
-                        <Link href="client-feedback" className ="ADS" >Testimonials</Link>
-                        {/* <ul className="navbar__sub-menu">
-                        <li>
-                            <Link href="client-feedback">Testimonials</Link>
-                          </li>
+                        <button>
+                          <Link href="client-feedback" className={`ADS${isActive("/client-feedback") ? " active-tab" : ""}`} >Testimonials</Link>
+                          </button>
+                          {/* <ul className="navbar__sub-menu">
                           <li>
-                            <Link href="blog-single">Blog Details</Link>
-                          </li>
-                        </ul> */}
+                              <Link href="client-feedback">Testimonials</Link>
+                            </li>
+                            <li>
+                              <Link href="blog-single">Blog Details</Link>
+                            </li>
+                          </ul> */}
                       </li>
                     </ul>
                   </div>
                   <div className="navbar__options">
-                    <div className="navbar__mobile-options d-sm-flex d-flex">
+                    <div className="navbar__mobile-options d-none d-md-flex d-lg-d-md-flex">
                       <Link href="contact-us" className="btn btn--secondary">
                         Let&apos;s Talk
                       </Link>
@@ -250,6 +271,11 @@ const HeaderTwo = ({ openNav, handleNav, setOpenNav }: HeaderProps) => {
         </div>
       </header>
       <Offcanvas openNav={openNav} setOpenNav={setOpenNav} />
+      <style jsx>{`
+        .active-tab button a .ADS{
+          color: #ff7425 !important;
+        }
+      `}</style>
     </>
   );
 };

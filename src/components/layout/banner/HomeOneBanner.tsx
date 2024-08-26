@@ -100,7 +100,7 @@ const HomeOneBanner = () => {
           <Link href="mailto:ceo@spearheadcreativity.com">mail : ceo@spearheadcreativity.com</Link>
           <Link href="tel:+971 566121551 ">Call : +971 566121551 </Link>
         </div> */}
-        <div className="banner-right-text banner-social-text d-none d-md-flex">
+        {/* <div className="banner-right-text banner-social-text d-none d-md-flex">
           <Link href="https://www.instagram.com/" target="_blank">
             instagram
           </Link>
@@ -110,7 +110,7 @@ const HomeOneBanner = () => {
           <Link href="https://www.facebook.com/" target="_blank">
             facebook
           </Link>
-        </div>
+        </div> */}
         <button
         // className="video-frame video-btn"
         // onClick={() => setVideoActive(true)}

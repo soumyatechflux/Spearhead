@@ -92,6 +92,11 @@
 .ceo-quote{
   margin-bottom: 20px !important;
 }
+.CEO-img{
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+}
 
 //services
 
@@ -194,7 +199,7 @@
   background-color: var(--tertiary-color);
   z-index: 1;
   position: relative;
-  padding-bottom: 100px;
+  // padding-bottom: 100px;
 
   .agency__thumb {
     position: relative;
@@ -283,7 +288,7 @@
   // }
 
   .thumb-two {
-     margin-top: 80px;
+    //  margin-top: 80px;
     margin-right:100px ;
     position: relative;
     align-items:center ;
@@ -311,7 +316,7 @@
   -webkit-box-orient: vertical;
   overflow: hidden;
   text-overflow: ellipsis;
-  font-size: 20px;
+  font-size: 18px;
 }
   .more-content {
     display: none; /* Hide this content initially */
@@ -963,7 +968,7 @@
 }
 .card{
   width: 310px;
-  margin:  40px 25px 40px ;
+  margin: 20px 25px 20px;
   background-color: #1d1d1ddc;
   padding: 10px;
   transition: all 0.5s;
@@ -986,7 +991,7 @@
 }
 .card-title{
   font-size: 20px;
-  font-weight: bold;
+  // font-weight: bold;
 }
 .card-title :hover {
   color: rgb(255, 115, 0);
@@ -1001,8 +1006,58 @@
 .arrow-img{
   height: 55px;
   width: 55px;
+  cursor: pointer; /* Add pointer to indicate it's hoverable */
 }
+
+
+
+.card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  
+}
+
+.card:hover {
+  transform: scale(1.05); /* Slightly scale up the entire card */
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Add shadow effect on hover */
+}
+
+
+.card-img {
+  transition: transform 0.3s ease;
+  padding: 10px;
+}
+
+.card:hover .card-img {
+  transform: scale(1.1);
+}
+
+// @keyframes bounce {
+//   0%, 20%, 50%, 80%, 100% {
+//     transform: translateY(0); /* No vertical movement */
+//   }
+//   40% {
+//     transform: translateY(-10px); /* Move up slightly */
+//   }
+//   60% {
+//     transform: translateY(-5px); /* Move up slightly */
+//   }
+// }
+
+// .card:hover .card-title {
+//   animation: bounce 1s; /* Apply bounce animation to the text */
+// }
+
+
 //approch
+.paragraph div p{
+  display: -webkit-box;
+  -webkit-line-clamp: 5; /* Adjust to show the desired number of lines */
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  font-size: 20px;
+  margin-bottom: 0;
+}
 .summary {
   display: -webkit-box;
   -webkit-line-clamp: 5; /* Adjust to show the desired number of lines */
@@ -2014,7 +2069,7 @@
     span {
       position: absolute;
       top: 0px;
-      right: 105px;
+      // right: 105px;
       @include box(100px);
       background-color: #1f1f1f;
       text-align: center;

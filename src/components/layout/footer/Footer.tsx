@@ -18,10 +18,10 @@ const Footer = () => {
       <div className="container">   
 
         <div className="row gaper">
-          <div className="col-12 col-lg-3 col-xl-3">
+          <div className="col-12 col-lg-4 col-xl-3">
             <div className="footer__single">
               <Link href="/" className="logo">
-                <Image style={{height:"100px", width:"100px", borderRadius:"100%"}} src={logo} alt="Image" />
+                <Image style={{height:"30px", width:"100px", borderRadius:"100%"}} src={logo} alt="Image" />
               </Link>
               <div className="footer__single-meta">
                 <Link
@@ -56,10 +56,10 @@ const Footer = () => {
               <div className="footer__single-content">
                <ul>
                   <li>
-                    <Link href="about-us">About Us</Link>
+                    <Link href="about-us" style={{whiteSpace:'nowrap'}}>About Us</Link>
                   </li>
                   <li>
-                    <Link href="service-single">Services</Link>
+                    <Link href="our-services">Services</Link>
                   </li>
                   <li>
                     <Link href="our-projects">Projects</Link>
@@ -72,10 +72,10 @@ const Footer = () => {
             </div>
           </div>
          
-          <div className="col-12 col-lg-4 col-xl-4">
+          <div className="col-12 col-lg-3 col-xl-4">
             <div className="footer__single">
               <div className="footer__single-intro">
-                <h5 className="countries-time-footer">Countries Time</h5>
+                <h5 className="countries-time-footer">Country Time</h5>
               </div>
               <div className="footer__single-content">
                 <CountriesTime/>
@@ -112,7 +112,8 @@ const Footer = () => {
                 </div>
               </div> */}
               <div className="footer__single-content">
-              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3749.4147951386244!2d73.79744627503601!3d19.99109842260863!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bddeafc75e786dd%3A0x8f4fab30e7ea460c!2sTechflux%20Solutions!5e0!3m2!1sen!2sin!4v1724072879175!5m2!1sen!2sin" width="600" height="450" loading="lazy"></iframe>
+              {/* <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3749.4147951386244!2d73.79744627503601!3d19.99109842260863!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bddeafc75e786dd%3A0x8f4fab30e7ea460c!2sTechflux%20Solutions!5e0!3m2!1sen!2sin!4v1724072879175!5m2!1sen!2sin" width="600" height="450" loading="lazy"></iframe> */}
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d225.71303633464143!2d55.30011378154933!3d25.15567823868661!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f688c5516ea0f%3A0x44800f32689f57e2!2sThe%20Meydan%20Hotel!5e0!3m2!1sen!2sin!4v1724562911553!5m2!1sen!2sin" width="600" height="300"  loading="lazy" ></iframe>
               </div>
             </div>
           </div>
@@ -145,10 +146,10 @@ const Footer = () => {
                     <Link href="https://www.twitter.com/" target="_blank">
                       <i className="fa-brands fa-twitter"></i>
                     </Link>
-                    <Link href="https://www.pinterest.com/" target="_blank">
+                    <Link href="https://www.linkedin.com/in/paul-williams-696a1624?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app" target="_blank">
                       <i className="fa-brands fa-linkedin-in"></i>
                     </Link>
-                    <Link href="https://www.instagram.com/" target="_blank">
+                    <Link href="https://www.instagram.com/spearheadcreativity/?igsh=Zm1nZXNvamxxN2E0&utm_source=qr" target="_blank">
                       <i className="fa-brands fa-instagram"></i>
                     </Link>
                   </div>

@@ -42,12 +42,12 @@ const CountriesTime = () => {
       <div className="row my-div">
         {times.length > 0 ? (
           times.map((country, index) => (
-            <div key={index} className="text-center animate__animated animate__fadeIn">
+            <div key={index} className="animate__animated animate__fadeIn p-0">
               <div className="country-time-alignment">
-                <div>
+                <div style={{textAlign:'start',width:'85px'}}>
                   <h4 className="font-weight-bold country-name">{country.name}</h4>
                 </div>
-                <div className="ms-3">
+                <div className="ms-3" style={{textAlign:'start'}}>
                   <p className="h5 country-time text-white">
                     {new Date(country.time!).toLocaleTimeString([], {
                       hour: "2-digit",

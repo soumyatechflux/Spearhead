@@ -12,6 +12,7 @@ import HomeSponsor from "@/components/containers/home/HomeSponsor";
 import NextPage from "@/components/containers/home/NextPage";
 import HomeApproch from "@/components/containers/home/HomeApproch";
 import CountriesTime from "@/components/containers/home/CountriesTime";
+import CounterSection from "@/components/containers/home/CounterSection";
 
 const Home = () => {
   return (
@@ -26,6 +27,7 @@ const Home = () => {
       <HomeTestimonial />
       {/* <HomeBlog /> */}
       <HomeSponsor />
+      <CounterSection/>
       {/* <CountriesTime /> */}
       {/* <NextPage /> */}
     </Layout>

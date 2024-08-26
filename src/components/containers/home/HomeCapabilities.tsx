@@ -54,7 +54,7 @@ const HomeCapabilities = () => {
                         working steps
                         <i className="fa-solid fa-arrow-right"></i>
                       </span> */}
-                      <h2 className="title title-anim">
+                      <h2 className="title title-anim" style={{textAlign:"start"}}>
                         CORE CAPABILITIES
                       </h2>
                     </div>
@@ -75,7 +75,7 @@ const HomeCapabilities = () => {
             <div className="col-12 col-sm-6 col-xl-3">
               <div
                 className={
-                  "work-steps__single fade-top" +
+                  "work-steps__single fade-top d-flex justify-content-center" +
                   (hover === 0 ? " work-steps__single-active" : " ")
                 }
                 onMouseEnter={() => setHover(0)}
@@ -103,7 +103,7 @@ const HomeCapabilities = () => {
             <div className="col-12 col-sm-6 col-xl-3">
               <div
                 className={
-                  "work-steps__single fade-top" +
+                  "work-steps__single fade-top d-flex justify-content-center" +
                   (hover === 1 ? " work-steps__single-active" : " ")
                 }
                 onMouseEnter={() => setHover(1)}
@@ -135,7 +135,7 @@ const HomeCapabilities = () => {
             <div className="col-12 col-sm-6 col-xl-3">
               <div
                 className={
-                  "work-steps__single fade-top" +
+                  "work-steps__single fade-top d-flex justify-content-center" +
                   (hover === 2 ? " work-steps__single-active" : " ")
                 }
                 onMouseEnter={() => setHover(2)}
@@ -165,7 +165,7 @@ const HomeCapabilities = () => {
             <div className="col-12 col-sm-6 col-xl-3">
               <div
                 className={
-                  "work-steps__single fade-top" +
+                  "work-steps__single fade-top d-flex justify-content-center" +
                   (hover === 3 ? " work-steps__single-active" : " ")
                 }
                 onMouseEnter={() => setHover(3)}

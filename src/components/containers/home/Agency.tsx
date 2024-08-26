@@ -71,7 +71,7 @@ const Agency = () => {
         end: "bottom 25%",
         toggleActions: "play none none none",
       },
-      y: 100,
+      y: 0,
       duration: 2
     });
   }, [triggerClasses.scrollAnimation]);
@@ -85,7 +85,7 @@ const Agency = () => {
         end: "bottom 25%",
         toggleActions: "play none none none",
       },
-      x: 40,
+      x: 31,
       duration: 4
     });
   }, [triggerClasses.imgAnimation]);
@@ -140,7 +140,7 @@ const Agency = () => {
                 WELCOME Spearhead Creativity
                 <i className="fa-solid fa-arrow-right"></i>
               </span> */}
-              <span className="sub-title">About Us<i className="fa-solid fa-arrow-right"></i></span>
+              <span className="sub-title mt-0">About Us<i className="fa-solid fa-arrow-right"></i></span>
               <h2 className="title title-anim">
                Spearhead Creativity
               </h2>

@@ -83,7 +83,7 @@ const HomeAboutUs = () => {
         end: "bottom 25%",
         toggleActions: "play none none none",
       },
-      y: 100,
+      y: 15,
       duration: 2
     });
   }, [triggerClasses.scrollAnimation]);

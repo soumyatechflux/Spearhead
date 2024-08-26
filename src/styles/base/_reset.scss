@@ -72,7 +72,7 @@ button {
   text-decoration: none;
   display: inline-flex;
   align-items: center;
-  gap: 8px;
+  gap: 5px;
   outline: 0px;
   border: 0px;
   transition: var(--transition);
@@ -183,7 +183,7 @@ p {
 }
 
 .row > * {
-  padding-left: 15px !important;
+  // padding-left: 15px !important;
   padding-right: 15px !important;
 }
 

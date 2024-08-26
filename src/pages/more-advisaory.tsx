@@ -3,6 +3,7 @@ import Layout from "@/components/layout/Layout";
 import Footer from "@/components/layout/footer/Footer";
 import HomeCapabilities from "@/components/containers/home/HomeCapabilities";
 import ServiceCoreCapabilitiesBanner from "@/components/layout/banner/ServiceCoreCapabilitiesBanner";
+import MoreAdvisoryServiceBanner from "@/components/layout/banner/MoreAdvisoryServiceBanner";
 // import CmnBanner from "@/components/layout/banner/CmnBanner";
 // import ServiceMain from "@/components/containers/ServiceMain";
 // import HomeTwoModal from "@/components/containers/home-two/HomeTwoModal";
@@ -16,11 +17,11 @@ import ServiceCoreCapabilitiesBanner from "@/components/layout/banner/ServiceCor
 
 // import Home from './components/Home';
 
-const OurServices = () => {
+const MoreAdvisaory = () => {
   return (
     <Layout header={2} video={0}>
-      <ServiceCoreCapabilitiesBanner/>
-      <HomeCapabilities/>
+      <MoreAdvisoryServiceBanner/>
+      {/* <HomeCapabilities/> */}
       <Footer/>
       {/* <CmnBanner title="Core Capabilities" navigation="Core Capabilities" /> */}
       
@@ -34,4 +35,4 @@ const OurServices = () => {
   );
 };
 
-export default OurServices;
+export default MoreAdvisaory;
