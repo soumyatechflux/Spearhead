@@ -22,17 +22,16 @@ const ServiceMain = () => {
   const router = useRouter();
   const hash = router.asPath.split("#")[1];
 
-  useEffect(() => {
+  // useEffect(() => {
    
-    if (hash === "strategy" ) {
-      // console.log('ssost')
-      const topPosition = Strategy1.current.getBoundingClientRect().top + window.scrollY;
-      window.scrollTo({
-        top: topPosition,
-        behavior: 'smooth',
-      });
-    }
-  }, []);
+  //   if (hash === "strategy" && Strategy1.current) {
+  //     const topPosition = Strategy1.current.getBoundingClientRect().top + window.scrollY;
+  //     window.scrollTo({
+  //       top: topPosition,
+  //       behavior: 'smooth',
+  //     });
+  //   }
+  // }, []);
   const serviceData = [
     {
       id: 1,

@@ -28,28 +28,29 @@ const CounterSection = () => {
     backgroundColor: '#070707',
   };
 
-  const rowStyle = {
+  const rowStyle: React.CSSProperties = {
     display: 'flex',
-    flexWrap: 'wrap',
+    flexWrap: 'wrap' as 'wrap', // Correct type for flexWrap
     color: 'white',
   };
+  
 
-  const counterStyle = {
-    textAlign: 'center',
+  const counterStyle: React.CSSProperties = {
+    textAlign: 'center' as 'center', // Cast to the expected type
     marginBottom: '1rem',
     color: 'white',
   };
 
-  const numberStyle = {
+  const numberStyle: React.CSSProperties = {
     fontSize: '2rem',
     marginBottom: '0.5rem',
     color: 'white',
   };
-
-  const labelStyle = {
-    fontWeight: '500',
-    fontSize: '0.875rem',
-    opacity: '0.5',
+  
+  const labelStyle: React.CSSProperties = {
+    fontWeight: 500,
+    fontSize: '1rem',
+    opacity: 0.5,
     color: 'white',
   };
 
@@ -85,9 +86,9 @@ const CounterSection = () => {
             <div style={{ ...counterStyle, flex: '1 1 25%' }}>
               <div>
                 <strong style={numberStyle}>
-                  <CountUp end={20} duration={2} suffix="+" />
+                  <CountUp end={100} duration={2} suffix="+" />
                 </strong>
-                <label style={labelStyle}>Top Professionals</label>
+                <label style={labelStyle}>Our Projects</label>
               </div>
             </div>
           </>
