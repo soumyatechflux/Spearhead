@@ -2,8 +2,8 @@ import React, { useState, useEffect } from "react";
 import { useRouter } from "next/router";
 import Image from "next/image";
 import Link from "next/link";
-import logo from "public/images/logo.png";
-import logoLight from "public/images/logo-light.png";
+import logo from "public/images/white-logo2.png";
+// import logoLight from "public/images/logo-light.png";
 import Offcanvas from "./Offcanvas";
 
 interface HeaderProps {
@@ -11,6 +11,7 @@ interface HeaderProps {
   setOpenNav: (value: boolean) => void;
   handleNav: () => void;
 }
+
 
 const Header = ({ openNav, handleNav, setOpenNav }: HeaderProps) => {
   const [scrolled, setScrolled] = useState(false);
@@ -42,8 +43,9 @@ const Header = ({ openNav, handleNav, setOpenNav }: HeaderProps) => {
 
   const router = useRouter();
   if (router.pathname === "/index-light") {
-    logoSrc = logoLight;
+    logoSrc = logo;
   }
+
 
   return (
     <>
@@ -81,7 +83,7 @@ const Header = ({ openNav, handleNav, setOpenNav }: HeaderProps) => {
                 <nav className="navbar p-0">
                   <div className="navbar__logo">
                     <Link href="/" aria-label="go to home">
-                      <Image src={logoSrc} priority alt="Image" style={{height : '50px', width: '100px'}} />
+                      <Image src={logoSrc} priority alt="Image" style={{height : '85px', background:"", borderRadius:"50%"}} />
                     </Link>
                   </div>
                   <div className="navbar__menu">
@@ -144,16 +146,18 @@ const Header = ({ openNav, handleNav, setOpenNav }: HeaderProps) => {
                       <li className="navbar__item navbar__item--has-children nav-fade">
                         <button
                           aria-label="dropdown menu"
-                          className="navbar__dropdown-label"
+                          className={`${"navbar__dropdown-label"} ${"ADS"}`}
+                          // className="navbar__dropdown-label"
+                          // style={{color: "white"}}
                         >
                           Services
                         </button>
                         <ul className="navbar__sub-menu">
                           <li>
-                            <Link href="our-services">Our Services</Link>
+                            <Link href="our-services">Core Capabilities</Link>
                           </li>
                           <li>
-                            <Link href="service-single">Service Details</Link>
+                            <Link href="service-single">Scope Of Service</Link>
                           </li>
                         </ul>
                       </li>
@@ -161,12 +165,13 @@ const Header = ({ openNav, handleNav, setOpenNav }: HeaderProps) => {
                         <button
                           aria-label="dropdown menu"
                           className="navbar__dropdown-label"
+                          // style={{color: "white"}}
                         >
                           Projects
                         </button>
                         <ul className="navbar__sub-menu">
                           <li>
-                            <Link href="our-projects">Our Projects</Link>
+                            <Link href="our-projects">List of Projects</Link>
                           </li>
                           <li>
                             <Link href="project-single">Project Details</Link>
@@ -177,6 +182,7 @@ const Header = ({ openNav, handleNav, setOpenNav }: HeaderProps) => {
                         <button
                           aria-label="dropdown menu"
                           className="navbar__dropdown-label"
+                          // style={{color: "white"}}
                         >
                           More
                         </button>
@@ -209,29 +215,25 @@ const Header = ({ openNav, handleNav, setOpenNav }: HeaderProps) => {
                               </li>
                             </ul>
                           </li>
-                          <li>
+                          {/* <li>
                             <Link href="client-feedback">Testimonials</Link>
-                          </li>
+                          </li> */}
                           <li>
                             <Link href="contact-us">Contact Us</Link>
                           </li>
                         </ul>
                       </li>
-                      <li className="navbar__item navbar__item--has-children nav-fade">
-                        <button
-                          aria-label="dropdown menu"
-                          className="navbar__dropdown-label"
-                        >
-                          Blog
-                        </button>
-                        <ul className="navbar__sub-menu">
+                      <li className="navbar__item nav-fade">
+                        <Link href="client-feedback" className ="ADS" >Testimonials</Link>
+                      
+                        {/* <ul className="navbar__sub-menu">
                           <li>
                             <Link href="blog">Blog</Link>
                           </li>
                           <li>
                             <Link href="blog-single">Blog Details</Link>
                           </li>
-                        </ul>
+                        </ul> */}
                       </li>
                     </ul>
                   </div>
@@ -241,6 +243,16 @@ const Header = ({ openNav, handleNav, setOpenNav }: HeaderProps) => {
                         Let&apos;s Talk
                       </Link>
                     </div>
+
+                    <div className="navbar__options1">
+                    <button 
+                      className="open-offcanvas-nav d-flex"
+                      aria-label="toggle mobile menu"
+                      title="open offcanvas menu"
+                      onClick={handleNav}
+                    ></button>
+                  </div>
+
                     <button
                       className="open-mobile-menu d-flex d-xl-none"
                       aria-label="toggle mobile menu"

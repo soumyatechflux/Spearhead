@@ -4,16 +4,31 @@
 
 //  header
 .ADS {
-  color: black;
+  color: white;
   font-weight: bold;
-  padding-right: 10px;
+  // padding-right: 10px;
+  // transform: to-upper-case($string: "");
+  text-transform: uppercase;
+  font-family: raleway;
 }
 
 .ADS:hover {
   color: #ff7425;
 
 }
-
+.active-tab{
+  color: #ff7425 !important;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-family: raleway;
+  font-size: 16px;
+}
+.sub-active-tab{
+  color: #ff7425 !important;
+}
+.active-tab button a .ADS{
+  color: #ff7425 !important;
+}
 .primary-navbar {
   position: fixed;
   top: 0px;
@@ -21,16 +36,17 @@
   right: 0px;
   width: 100%;
   z-index: 999;
-  padding: 30px 0px;
+  // padding: 30px 0px;
   .navbar {
     display: flex;
     align-items: center;
     justify-content: space-between;
     gap: 60px;
     flex-wrap: wrap;
-    background-color: #fff;
+    // background-color: #fff;
     border-radius:  46px;
     height: 100px;
+    // background-image: linear-gradient(to left, #ed4264, #ffedbc);
   }
 
   .navbar__menu {
@@ -47,15 +63,16 @@
   .navbar__item {
     button,a
     a {
-      padding: 41px 20px;
+      padding: 40px 15px;
       text-transform: uppercase;
       font-weight: 1000;
       width: 100%;
-      color: #191919;
+      color: white;
     }
   }
 
   .navbar__item--has-children {
+    
     position: relative;
 
     &:hover {
@@ -97,8 +114,8 @@
     position: absolute;
     top: 100%;
     left: 0px;
-    min-width: 220px;
-    max-width: 260px;
+    min-width: 330px;
+    // max-width: 260px;
     background-color: var(--white);
     opacity: 0;
     visibility: hidden;
@@ -106,7 +123,7 @@
     pointer-events: none;
     transition: var(--transition);
     box-shadow: var(--shadow);
-    padding: 20px 0px;
+    // padding: 20px 0px;
     border-radius: 5px;
     z-index: 9;
     &::before {
@@ -191,11 +208,22 @@
     gap: 30px;
   }
 
+  .navbar__options1 {
+    // display: flex;
+    display: none;
+    align-items: center;
+    gap: 30px;
+  }
+
+  
   .open-mobile-menu {
     font-size: 30px;
     color: var(--white);
+
   }
 }
+
+
 
 @keyframes stickyNavbar {
   0% {
@@ -208,14 +236,16 @@
 
 .navbar-active {
   background-color: var(--black);
-  animation: stickyNavbar 0.9s ease-in-out;
+  animation: stickyNavbar 0.3 ease-in-out;
   box-shadow: var(--shadow);
-  border-bottom: 1px solid #414141;
+  // border-bottom: 1px solid #414141;
 }
-
+// header.header {
+//   margin-bottom: -75px;
+// }
 // secondary navbar
 .secondary--navbar {
-  padding: 30px 0px;
+  padding: 30px 0px 10px;
 
   .open-offcanvas-nav {
     @include box(80px);
@@ -391,7 +421,7 @@
       a,
       button {
         color: var(--white);
-        padding: 16px 20px;
+        padding: 10px 20px;
         font-size: 16px;
         &::before {
           content: none;
@@ -461,7 +491,7 @@
     }
   }
 
-  .navbar__options {
+  .navbar__options1 {
     gap: 0px;
   }
 
@@ -541,7 +571,7 @@
 .quinary--navbar {
   .navbar__logo {
     display: flex;
-    align-items: center;
+    // align-items: center;
     gap: 120px;
   }
 
@@ -550,6 +580,38 @@
     &:hover {
       color: var(--primary-color);
     }
+  }
+}
+
+.home-two-logo{
+  height : 100px;
+   width: 500px; 
+   border-radius:50%;
+}
+
+@media(max-width:"390px"){
+  .navbar__options{
+    gap: 10px !important;
+  }
+}
+
+@media (max-width:'768px'){
+  
+    .home-two-logo {
+      width: 300px;
+      position: absolute;
+      left: -45px;
+  }
+}
+@media(max-width:340px){
+  
+    .home-two-logo {
+        width: 190px !important;
+        position: absolute !important;
+        left: -36px !important;
+    }
+    .primary-navbar .navbar {
+      gap: 1px !important;
   }
 }
 

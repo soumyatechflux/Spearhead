@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import Link from "next/link";
 import Image from "next/image";
 import { useRouter } from "next/router";
-import logo from "public/images/logo.png";
+import logo from "public/images/white-logo.png";
 import logoLight from "public/images/logo-light.png";
 import Offcanvas from "./Offcanvas";
 
@@ -42,7 +42,7 @@ const HeaderFive = ({ openNav, handleNav, setOpenNav }: HeaderProps) => {
 
   const router = useRouter();
   if (router.pathname === "/index-five-light") {
-    logoSrc = logoLight;
+    logoSrc = logo;
   }
 
   return (
@@ -134,7 +134,7 @@ const HeaderFive = ({ openNav, handleNav, setOpenNav }: HeaderProps) => {
                         </button>
                         <ul className="navbar__sub-menu">
                           <li>
-                            <Link href="our-projects">Our Projects</Link>
+                            <Link href="our-projects">List Of Projects</Link>
                           </li>
                           <li>
                             <Link href="project-single">Project Details</Link>
@@ -149,6 +149,16 @@ const HeaderFive = ({ openNav, handleNav, setOpenNav }: HeaderProps) => {
                         Let&apos;s Talk
                       </Link>
                     </div>
+                    
+                    <div className="navbar__options1">
+                    <button 
+                      className="open-offcanvas-nav d-flex"
+                      aria-label="toggle mobile menu"
+                      title="open offcanvas menu"
+                      onClick={handleNav}
+                    ></button>
+                  </div>
+
                     <button
                       className="open-offcanvas-nav d-flex d-xl-none"
                       aria-label="toggle mobile menu"

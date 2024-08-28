@@ -12,7 +12,7 @@ import HeaderFive from "./header/HeaderFive";
 import Footer from "./footer/Footer";
 import FooterTwo from "./footer/FooterTwo";
 import FooterThree from "./footer/FooterThree";
-import FooterFour from "./footer/FooterFour";
+// import FooterFour from "./footer/FooterFour";
 import FooterFive from "./footer/FooterFive";
 import VideoModal from "./VideoModal";
 import ScrollProgressBtn from "./ScrollProgressBtn";
@@ -177,10 +177,10 @@ const Layout = ({
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <link
           rel="shortcut icon"
-          href="/images/favicon.png"
-          type="image/x-icon"
+          href="/images/logoas.svg"
+           type="image/x-icon"
         />
-        <title>Spearhead | Digital Agency Creative Portfolio Template</title>
+        <title>Spearhead | Digital Agency</title>
         <meta name="keywords" content="creative, agency, portfolio" />
         <meta
           name="description"
@@ -227,7 +227,7 @@ const Layout = ({
         {footer === 1 && <Footer />}
         {footer === 2 && <FooterTwo />}
         {footer === 3 && <FooterThree />}
-        {footer === 4 && <FooterFour />}
+        {/* {footer === 4 && <FooterFour />} */}
         {footer === 5 && <FooterFive />}
         {video ? <VideoModal /> : null}
         <ScrollProgressBtn />

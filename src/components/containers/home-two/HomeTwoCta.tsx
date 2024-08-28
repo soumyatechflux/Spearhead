@@ -10,7 +10,8 @@ const HomeTwoCta = () => {
           <div className="col-12">
             <div
               className="cta__wrapper"
-              data-background="assets/images/cta-bg.png"
+              // data-background="assets/images/cta-bg.png"
+              data-background="assets/images/Black.mp4"
             >
               <div className="row justify-content-center">
                 <div className="col-12 col-md-10 col-lg-9 col-xl-8 col-xxl-9">

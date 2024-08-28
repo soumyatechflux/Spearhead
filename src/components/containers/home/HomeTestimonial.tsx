@@ -4,9 +4,9 @@ import Link from "next/link";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay, Navigation } from "swiper/modules";
 import "swiper/swiper-bundle.css";
-import sthumb from "public/images/testimonial/s-thumb.png";
-import sthumbtwo from "public/images/testimonial/s-thumb-two.png";
-import sthumbthree from "public/images/testimonial/s-thumb-three.png";
+import sthumb from "public/images/client/khaled-amer.png";
+import sthumbtwo from "public/images/client/soumaiama.png";
+import sthumbthree from "public/images/client/pamela.png";
 
 const HomeTestimonial = () => {
   const [nextSlideIndex, setNextSlideIndex] = useState<number>(1);
@@ -158,13 +158,17 @@ const HomeTestimonial = () => {
                             <i className="fa-solid fa-quote-right"></i>
                           </div>
                           <div className="content">
-                            <h4>
-                            "Our experience with Spearhead Creativity was exceptional. Their team's expertise and dedication ensured a seamless execution of our project."
-                            </h4>
+                            {/* <h5 className="testimonial-info"> */}
+                            <h5 className="summary">
+                            Paul Williams is an outstanding brand strategist and media specialist. 
+                            Our collaboration on various hotel projects showcased his exceptional dedication, creativity, and strategic insight. 
+                            His professionalism and commitment to excellence are commendable traits that greatly contributed to our success. 
+                            I have every confidence in Paul's abilities and wholeheartedly endorse him for any future endeavors."
+                            </h5>
                           </div>
                           <div className="content-cta">
-                            <h5>Daniel Smith</h5>
-                            <p>Senior engineer</p>
+                            <h5 style={{fontWeight:'bold'}}>Khaled Amer</h5>
+                            <p>Vice President</p>
                           </div>
                         </div>
                       </div>
@@ -198,13 +202,18 @@ const HomeTestimonial = () => {
                             <i className="fa-solid fa-quote-right"></i>
                           </div>
                           <div className="content">
-                            <h4>
-                            "We couldn't have asked for a better partner than Spearhead Creativity. Their dedication to understanding our unique needs ensured a tailored solution."
-                            </h4>
+                            {/* <h5 className="testimonial-info"> */}
+                            <h5 className="summary">
+                            I've had the pleasure of collaborating with Paul and and his company, on a few projects, and I can attest to his exceptional work ethics and unwavering commitment to delivering top-quality services.
+                            His strategic approach to catering to his customers vision and tailor the offers to their requirements sets a benchmark for professionalism and high-standards in the industry.
+                            Paul's consistency and transparent communication showcases a genuine passion for achieving excellence
+                            I highly recommend Spearhead Creativity to any organization seeking a dedicated, visionary agency that ensures unwavering quality and delivering outstanding results.
+
+                            </h5>
                           </div>
                           <div className="content-cta">
-                            <h5>Daniel Smith</h5>
-                            <p>Senior engineer</p>
+                            <h5 style={{fontWeight:'bold'}}>Soumaia Amane</h5>
+                            <p>Sr. Indutrial Engineer</p>
                           </div>
                         </div>
                       </div>
@@ -238,13 +247,17 @@ const HomeTestimonial = () => {
                             <i className="fa-solid fa-quote-right"></i>
                           </div>
                           <div className="content">
-                            <h4>
-                            "We are extremely pleased with the results delivered by Spearhead Creativity. Their attention to detail and proactive communication made all the difference.".
-                            </h4>
+                            <h5 className="summary" >
+                            Paul Williams has phenomenal local Media Management and PR experience, is very well connected and is a one of the best networkers that I have seen.
+                            His company, Spearhead Creativity, manages my company's Public Relations and marketing. 
+                            Paul and his team were able to secure excellent coverage with leading publications to develop my personal branding, as well as our company branding for Linen Obsession. 
+                            This has really helped to increase recognition and awareness for our new business initiatives, and to enhance sales.
+                            Thank you to Paul and his team
+                            </h5>
                           </div>
                           <div className="content-cta">
-                            <h5>Daniel Smith</h5>
-                            <p>Senior engineer</p>
+                            <h5 style={{fontWeight:'bold'}}> Pamela </h5>
+                            <p>CEO</p>
                           </div>
                         </div>
                       </div>
